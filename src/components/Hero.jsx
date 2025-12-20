@@ -2,7 +2,7 @@ import { FiDownload, FiArrowRight } from 'react-icons/fi';
 
 const Hero = () => {
   const handleDownloadCV = () => {
-    const cvUrl = 'assets/yonathan-resume-nov.pdf';
+    const cvUrl = '/yonathan-resume-nov.pdf';
     const link = document.createElement('a');
     link.href = cvUrl;
     link.download = 'yonathan-resume-nov.pdf';
