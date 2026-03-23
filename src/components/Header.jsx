@@ -10,7 +10,6 @@ const Header = () => {
     { name: 'About', href: '#about' },
     { name: 'Experience', href: '#experience' },
     { name: 'Projects', href: '#projects' },
-    { name: 'Testimonials', href: '#testimonials' },
     { name: 'Certifications', href: '#certifications' },
     { name: 'Contact', href: '#contact' }
   ];
@@ -39,7 +38,7 @@ const Header = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-white/80 hover:text-white transition-colors text-sm font-medium"
+                className="text-white/80 hover:text-white hover:scale-110 transition-all duration-300 text-sm font-medium"
               >
                 {item.name}
               </a>
@@ -64,7 +63,7 @@ const Header = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-white/80 hover:text-white transition-colors text-sm font-medium py-2"
+                  className="text-white/80 hover:text-white hover:translate-x-2 transition-all duration-300 text-sm font-medium py-2"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}

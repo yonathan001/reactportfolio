@@ -23,23 +23,23 @@ const Contact = () => {
           <div className="flex gap-3 justify-center flex-wrap">
             <a
               href="mailto:yonathanwondosen@gmail.com"
-              className="p-3 bg-white/5 border border-white/10 rounded-lg hover:bg-white/10 hover:border-white/20 transition-all"
+              className="p-3 bg-white/5 border border-white/10 rounded-lg hover:bg-white/10 hover:border-white/20 hover:scale-110 transition-all"
               aria-label="Email"
             >
               <FiMail className="text-white text-lg" />
             </a>
             <a
               href="tel:+251914287268"
-              className="p-3 bg-white/5 border border-white/10 rounded-lg hover:bg-white/10 hover:border-white/20 transition-all"
+              className="p-3 bg-white/5 border border-white/10 rounded-lg hover:bg-white/10 hover:border-white/20 hover:scale-110 transition-all"
               aria-label="Phone"
             >
               <FiPhone className="text-white text-lg" />
             </a>
             <a
-              href="https://github.com/YonathanWondosen"
+              href="https://github.com/yonathan001"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 bg-white/5 border border-white/10 rounded-lg hover:bg-white/10 hover:border-white/20 transition-all"
+              className="p-3 bg-white/5 border border-white/10 rounded-lg hover:bg-white/10 hover:border-white/20 hover:scale-110 transition-all"
               aria-label="GitHub"
             >
               <FiGithub className="text-white text-lg" />
@@ -48,7 +48,7 @@ const Contact = () => {
               href="https://www.linkedin.com/in/yonathan-wondosen-a025bb239/"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 bg-white/5 border border-white/10 rounded-lg hover:bg-white/10 hover:border-white/20 transition-all"
+              className="p-3 bg-white/5 border border-white/10 rounded-lg hover:bg-white/10 hover:border-white/20 hover:scale-110 transition-all"
               aria-label="LinkedIn"
             >
               <FiLinkedin className="text-white text-lg" />
@@ -57,7 +57,7 @@ const Contact = () => {
               href="https://www.instagram.com/yo_na_th_an/"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 bg-white/5 border border-white/10 rounded-lg hover:bg-white/10 hover:border-white/20 transition-all"
+              className="p-3 bg-white/5 border border-white/10 rounded-lg hover:bg-white/10 hover:border-white/20 hover:scale-110 transition-all"
               aria-label="Instagram"
             >
               <FiInstagram className="text-white text-lg" />
@@ -66,7 +66,7 @@ const Contact = () => {
               href="https://t.me/yo_na_th_an"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 bg-white/5 border border-white/10 rounded-lg hover:bg-white/10 hover:border-white/20 transition-all"
+              className="p-3 bg-white/5 border border-white/10 rounded-lg hover:bg-white/10 hover:border-white/20 hover:scale-110 transition-all"
               aria-label="Telegram"
             >
               <FaTelegramPlane className="text-white text-lg" />

@@ -3,7 +3,19 @@ import { useEffect, useRef, useState } from 'react'
 
 const Experience = () => {
   const experiences = [
-    
+    {
+      id: 4,
+      title: 'AI Focus Back-end Engineer, RAG Development',
+      company: 'Akilo Technology',
+      location: 'Remote - Hong Kong, China',
+      duration: '2025 - 2025',
+      type: 'Contractual',
+      status: '',
+      description:
+        'Worked on a RAG AI Chat bot Development that integrates a Large Language Model (LLM) with MongoDB vector search. Used embeddings to store and retrieve relevant documents based on user queries with HNSW Algorithm. The retrieved context is then passed to the LLM to generate accurate, context-aware responses.',
+      skills: ['Python', 'RAG', 'LLM', 'MongoDB', 'Vector Search', 'HNSW', 'AI/ML'],
+      link: 'https://app.bitterlylab.com/'
+    },
     {
       id: 2,
       title: 'Full Stack Software Developer',
@@ -11,10 +23,11 @@ const Experience = () => {
       location: 'Hybrid - Addis Ababa, Ethiopia',
       duration: 'March 2025 - Nov 2025',
       type: 'Full-time',
-      status: 'ended',
+      status: '',
       description:
         'Developing and maintaining comprehensive property management platform. Integrated Telebirr and multiple payment gateways for seamless transactions.',
-      skills: ['React', 'Spring Boot', 'Java', 'Payment APIs', 'PostgreSQL']
+      skills: ['React', 'Spring Boot', 'Java', 'Payment APIs', 'PostgreSQL'],
+      link: '#'
     },
     {
       id: 3,
@@ -25,8 +38,9 @@ const Experience = () => {
       type: 'Freelance',
       status: 'Ongoing',
       description:
-        'Delivered 15+ successful projects including AI-powered applications and EMR systems. Specialized in RAG AI solutions and healthcare platforms.',
-      skills: ['React', 'Python', 'Flask', 'Django', 'Node.js', 'Laravel', 'AI/ML', 'Docker', 'AWS']
+        'Working with international and local clients delivering end-to-end web application solutions from development to deployment. Built strong client relationships through consistent delivery of high-quality, scalable solutions tailored to diverse business needs.',
+      skills: ['React', 'Python', 'Flask', 'Django', 'Node.js', 'Next.js', 'AI/ML', 'Docker', 'VPS'],
+      link: 'https://www.upwork.com/freelancers/~01a7b27982e445e1a0'
     },
     {
       id: 1,
@@ -35,7 +49,7 @@ const Experience = () => {
       location: 'Addis Ababa, Ethiopia',
       duration: 'Jun 2024 - Present',
       type: 'Volunteer',
-      status: '',
+      status: 'Volunteer',
       description:
         'Leading IT department strategy and digital transformation initiatives for healthcare NGO. Architected and developed multiple high-impact healthcare technology solutions.',
       skills: ['Leadership', 'Healthcare Tech', 'System Architecture', 'Web Applications']
@@ -110,15 +124,19 @@ const ExperienceCard = ({ exp }) => {
       }`}
     >
       {/* Timeline dot */}
-      <div className="absolute left-4 top-6 h-4 w-4 -translate-x-1/2 rounded-full border-4 border-black bg-white md:left-8" />
+      <div className="absolute left-4 top-6 h-4 w-4 -translate-x-1/2 rounded-full border-4 border-black bg-white md:left-8 group-hover:scale-125 transition-transform duration-300" />
 
       {/* Card */}
-      <article className="group rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:border-white/20 hover:bg-white/[0.07]">
+      <article className="group rounded-2xl border border-white/10 bg-white/5 p-6 transition-all duration-300 hover:border-white/20 hover:bg-white/[0.07] hover:-translate-y-1 hover:shadow-2xl hover:shadow-white/5">
         {/* Header */}
         <div className="mb-5 flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
           <div>
             {exp.status && (
-              <span className="mb-3 inline-block rounded-full border border-white/20 bg-white/10 px-3 py-1 text-xs">
+              <span className={`mb-3 inline-block rounded-full px-3 py-1 text-xs ${
+                exp.status === 'Volunteer' 
+                  ? 'bg-green-500/20 border border-green-500/40 text-green-400' 
+                  : 'border border-white/20 bg-white/10'
+              }`}>
                 {exp.status}
               </span>
             )}
@@ -148,6 +166,27 @@ const ExperienceCard = ({ exp }) => {
         <p className="mb-6 text-sm leading-relaxed text-white/70">
           {exp.description}
         </p>
+
+        {/* Link if available */}
+        {exp.link && (
+          <a 
+            href={exp.link} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="mb-6 inline-flex items-center gap-2 text-sm text-blue-400 hover:text-blue-300 transition-colors"
+          >
+            {exp.link.includes('upwork') ? (
+              <>
+                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.561 13.158c-1.102 0-2.135-.467-3.074-1.227l.228-1.076.008-.042c.207-1.143.849-3.06 2.839-3.06 1.492 0 2.703 1.212 2.703 2.703-.001 1.489-1.212 2.702-2.704 2.702zm0-8.14c-2.539 0-4.51 1.649-5.31 4.366-1.22-1.834-2.148-4.036-2.687-5.892H7.828v7.112c-.002 1.406-1.141 2.546-2.547 2.548-1.405-.002-2.543-1.143-2.545-2.548V3.492H0v7.112c0 2.914 2.37 5.303 5.281 5.303 2.913 0 5.283-2.389 5.283-5.303v-1.19c.529 1.107 1.182 2.229 1.974 3.221l-1.673 7.873h2.797l1.213-5.71c1.063.679 2.285 1.109 3.686 1.109 3 0 5.439-2.452 5.439-5.45 0-3-2.439-5.439-5.439-5.439z"/>
+                </svg>
+                View Upwork Profile →
+              </>
+            ) : (
+              'View Project →'
+            )}
+          </a>
+        )}
 
         {/* Skills */}
         <div>
