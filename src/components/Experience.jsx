@@ -39,7 +39,7 @@ const Experience = () => {
       status: 'Ongoing',
       description:
         'Working with international and local clients delivering end-to-end web application solutions from development to deployment. Built strong client relationships through consistent delivery of high-quality, scalable solutions tailored to diverse business needs.',
-      skills: ['React', 'Python', 'Flask', 'Django', 'Node.js', 'Next.js', 'AI/ML', 'Docker', 'VPS'],
+      skills: ['React', 'Python', 'Flask', 'FastAPI', 'Node.js', 'Next.js', 'AI/ML', 'Docker', 'VPS'],
       link: 'https://www.upwork.com/freelancers/~01a7b27982e445e1a0'
     },
     {

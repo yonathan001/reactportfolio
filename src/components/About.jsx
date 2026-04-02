@@ -2,7 +2,7 @@ import { FiUser, FiPhone, FiMail, FiGithub, FiLinkedin, FiMapPin, FiInstagram } 
 import { FaTelegramPlane } from 'react-icons/fa';
 import { 
   SiReact, SiJavascript, SiTypescript, SiTailwindcss,
-  SiPython, SiDjango, SiFlask, SiLaravel, SiNodedotjs,
+  SiPython, SiFastapi, SiFlask, SiLaravel, SiNodedotjs,
   SiMysql, SiPostgresql, SiMongodb, SiDocker, SiGit
 } from 'react-icons/si';
 
@@ -13,7 +13,7 @@ const About = () => {
     { name: 'TypeScript', icon: SiTypescript },
     { name: 'Tailwind', icon: SiTailwindcss },
     { name: 'Python', icon: SiPython },
-    { name: 'Django', icon: SiDjango },
+    { name: 'FastAPI', icon: SiFastapi },
     { name: 'Flask', icon: SiFlask },
     { name: 'Laravel', icon: SiLaravel },
     { name: 'Node.js', icon: SiNodedotjs },
@@ -154,7 +154,7 @@ const About = () => {
               
               <div className="space-y-5 text-white/70 leading-relaxed">
                 <p className="text-base">
-                  Hey! My Name is Yonathan Wondosen. I'm a senior full-stack software developer based in Ethiopia. I work extensively with <span className="text-white font-semibold">React/Next.js</span>, <span className="text-white font-semibold">TypeScript</span>, <span className="text-white font-semibold">Tailwind</span>, <span className="text-white font-semibold">Python (Django, Flask)</span>, <span className="text-white font-semibold">Node/Express</span>, <span className="text-white font-semibold">SQL and NO-SQL Databases</span>, building efficient, scalable, and user-friendly software solutions.
+                  Hey! My Name is Yonathan Wondosen. I'm a senior full-stack software developer based in Ethiopia. I work extensively with <span className="text-white font-semibold">React/Next.js</span>, <span className="text-white font-semibold">TypeScript</span>, <span className="text-white font-semibold">Tailwind</span>, <span className="text-white font-semibold">Python (FastAPI, Flask)</span>, <span className="text-white font-semibold">Node/Express</span>, <span className="text-white font-semibold">SQL and NO-SQL Databases</span>, building efficient, scalable, and user-friendly software solutions.
                 </p>
                 <p className="text-base">
                   In addition to full-stack development, I have hands-on experience with DevOps practices, including <span className="text-white font-semibold">Docker</span> containerization, deploying and managing applications on <span className="text-white font-semibold">AWS</span> and <span className="text-white font-semibold">VPS</span> environments, and implementing <span className="text-white font-semibold">CI/CD pipelines</span> using <span className="text-white font-semibold">GitHub Actions</span> to automate testing, building, and deployment processes.
