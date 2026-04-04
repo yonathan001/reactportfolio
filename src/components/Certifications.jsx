@@ -4,13 +4,13 @@ const Certifications = () => {
   const certifications = [
     {
       id: 1,
-      title: 'Python FastAPI Web Framework',
+      title: 'Python Django Web Framework',
       issuer: 'META',
       platform: 'Coursera',
       date: '2025',
-      description: 'Comprehensive course covering FastAPI web framework, REST APIs, and full-stack development.',
+      description: 'Comprehensive course covering Django web framework, REST APIs, and full-stack development.',
       credentialUrl: 'https://coursera.org/verify/H6XGZWUQ1RIV',
-      tags: ['FastAPI', 'Python', 'REST API']
+      tags: ['Django', 'Python', 'REST API']
     },
     {
       id: 2,
