@@ -1,7 +1,7 @@
 import { FiUser, FiPhone, FiMail, FiGithub, FiLinkedin, FiMapPin, FiInstagram } from 'react-icons/fi';
 import { FaTelegramPlane } from 'react-icons/fa';
 import { 
-  SiReact, SiJavascript, SiTypescript, SiTailwindcss,
+  SiReact, SiNextdotjs, SiJavascript, SiTypescript, SiTailwindcss,
   SiPython, SiFastapi, SiFlask, SiLaravel, SiNodedotjs,
   SiMysql, SiPostgresql, SiMongodb, SiDocker, SiGit
 } from 'react-icons/si';
@@ -9,6 +9,7 @@ import {
 const About = () => {
   const skills = [
     { name: 'React', icon: SiReact },
+    { name: 'Next.js', icon: SiNextdotjs },
     { name: 'JavaScript', icon: SiJavascript },
     { name: 'TypeScript', icon: SiTypescript },
     { name: 'Tailwind', icon: SiTailwindcss },
@@ -21,6 +22,7 @@ const About = () => {
     { name: 'PostgreSQL', icon: SiPostgresql },
     { name: 'MongoDB', icon: SiMongodb },
     { name: 'Docker', icon: SiDocker },
+    { name: 'PM2', icon: SiNodedotjs },
     { name: 'Git', icon: SiGit }
   ];
 
@@ -154,10 +156,10 @@ const About = () => {
               
               <div className="space-y-5 text-white/70 leading-relaxed">
                 <p className="text-base">
-                  Hey! My Name is Yonathan Wondosen. I'm a senior full-stack software developer based in Ethiopia. I work extensively with <span className="text-white font-semibold">React/Next.js</span>, <span className="text-white font-semibold">TypeScript</span>, <span className="text-white font-semibold">Tailwind</span>, <span className="text-white font-semibold">Python (FastAPI, Flask)</span>, <span className="text-white font-semibold">Node/Express</span>, <span className="text-white font-semibold">SQL and NO-SQL Databases</span>, building efficient, scalable, and user-friendly software solutions.
+                  Hey! I'm Yonathan Wondosen, a <span className="text-white font-semibold">Senior Software Engineer & Architect </span> specializing in enterprise-grade system design, Complex Web-applications Design and Development and microservices architecture.  I architect and build scalable solutions using <span className="text-white font-semibold">React/Next.js</span>, <span className="text-white font-semibold">TypeScript</span>, <span className="text-white font-semibold">Python (FastAPI, Flask)</span>, <span className="text-white font-semibold">Node/Express</span>, and <span className="text-white font-semibold"> SQL / NoSQL databases</span>.
                 </p>
                 <p className="text-base">
-                  In addition to full-stack development, I have hands-on experience with DevOps practices, including <span className="text-white font-semibold">Docker</span> containerization, deploying and managing applications on <span className="text-white font-semibold">AWS</span> and <span className="text-white font-semibold">VPS</span> environments, and implementing <span className="text-white font-semibold">CI/CD pipelines</span> using <span className="text-white font-semibold">GitHub Actions</span> to automate testing, building, and deployment processes.
+                  I leverage <span className="text-white font-semibold">AI-assisted development</span> (Claude AI Sonnet 4.5/4.6) to accelerate delivery while maintaining code quality. My expertise spans <span className="text-white font-semibold">system design</span>, <span className="text-white font-semibold">scalable architectures</span>, <span className="text-white font-semibold">Docker/Kubernetes</span> and <span className="text-white font-semibold">PM2-managed deployments</span>, <span className="text-white font-semibold">VPS infrastructure</span>, and <span className="text-white font-semibold">CI/CD automation</span>. I excel at delivering complex solutions under high-pressure deadlines for international clients. Familiar with microservices patterns and distributed systems.
                 </p>
                 
                 {/* Highlights */}
@@ -169,8 +171,8 @@ const About = () => {
                       </svg>
                     </div>
                     <div>
-                      <p className="text-white font-medium text-sm">Full-Stack Expertise</p>
-                      <p className="text-white/60 text-xs mt-1">End-to-end development</p>
+                      <p className="text-white font-medium text-sm">System Architecture</p>
+                      <p className="text-white/60 text-xs mt-1">Enterprise & Scalable Design</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -180,8 +182,8 @@ const About = () => {
                       </svg>
                     </div>
                     <div>
-                      <p className="text-white font-medium text-sm">DevOps Ready</p>
-                      <p className="text-white/60 text-xs mt-1">CI/CD & Cloud deployment</p>
+                      <p className="text-white font-medium text-sm">AI-Assisted Development</p>
+                      <p className="text-white/60 text-xs mt-1">Using claude AI 4.5 / 4.6</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -191,8 +193,8 @@ const About = () => {
                       </svg>
                     </div>
                     <div>
-                      <p className="text-white font-medium text-sm">AI Integration</p>
-                      <p className="text-white/60 text-xs mt-1">RAG & LLM solutions</p>
+                      <p className="text-white font-medium text-sm">Critical Problem Solver</p>
+                      <p className="text-white/60 text-xs mt-1">In High-pressure work Enviroment and Deadlines</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -202,8 +204,8 @@ const About = () => {
                       </svg>
                     </div>
                     <div>
-                      <p className="text-white font-medium text-sm">Scalable Systems</p>
-                      <p className="text-white/60 text-xs mt-1">Performance-focused</p>
+                      <p className="text-white font-medium text-sm">Strong communication</p>
+                      <p className="text-white/60 text-xs mt-1"> With Local and International Clients  </p>
                     </div>
                   </div>
                 </div>

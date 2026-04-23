@@ -30,12 +30,12 @@ const Hero = () => {
                   <FiCode className="text-white text-xl" />
                 </div>
                 <p className="text-xl md:text-2xl text-white/90 font-semibold">
-                  Senior Software Engineer
+                  Senior Software Engineer & Architect
                 </p>
               </div>
               
               <p className="text-base md:text-lg text-white/60 mb-10 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-                Crafting scalable applications and intelligent solutions with 5+ years of experience in full-stack development and DevOps
+                Architecting enterprise-grade systems with 5+ years of experience. Specialized in system design, AI-assisted development, Complex web-applications and delivering complex solutions under high-pressure deadlines.
               </p>
 
               {/* CTA Buttons */}
@@ -70,27 +70,27 @@ const Hero = () => {
                     <div className="flex gap-2 md:gap-4">
                       <span className="text-white/30">1</span>
                       <span className="text-purple-400">const</span>
-                      <span className="text-blue-400">developer</span>
+                      <span className="text-blue-400">Developer</span>
                       <span className="text-white/60">=</span>
                       <span className="text-white/60">{'{'}</span>
                     </div>
                     <div className="flex gap-2 md:gap-4 pl-4 md:pl-8">
                       <span className="text-white/30">2</span>
                       <span className="text-blue-300">name:</span>
-                      <span className="text-green-400">'Yonathan'</span>
+                      <span className="text-green-400">'Yonathan Wondosen'</span>
                       <span className="text-white/60">,</span>
                     </div>
                     <div className="flex gap-2 md:gap-4 pl-4 md:pl-8">
                       <span className="text-white/30">3</span>
                       <span className="text-blue-300">role:</span>
-                      <span className="text-green-400">'Full-Stack Engineer'</span>
+                      <span className="text-green-400">'Full-Stack Engineer & Architect'</span>
                       <span className="text-white/60">,</span>
                     </div>
                     <div className="flex gap-2 md:gap-4 pl-4 md:pl-8">
                       <span className="text-white/30">4</span>
                       <span className="text-blue-300">skills:</span>
                       <span className="text-white/60">[</span>
-                      <span className="text-green-400">'React'</span>
+                      <span className="text-green-400">'Javascript'</span>
                       <span className="text-white/60">,</span>
                       <span className="text-green-400">'Python'</span>
                       <span className="text-white/60">,</span>
@@ -119,7 +119,7 @@ const Hero = () => {
                     <div className="flex gap-2 md:gap-4">
                       <span className="text-white/30">9</span>
                       <span className="text-purple-400">export default</span>
-                      <span className="text-blue-400">developer</span>
+                      <span className="text-blue-400">Developer</span>
                       <span className="text-white/60">;</span>
                     </div>
                   </div>

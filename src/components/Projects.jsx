@@ -10,8 +10,8 @@ const Projects = () => {
         'Advanced RAG AI system integrating Large Language Models with MongoDB vector search for accurate, context-aware responses.',
       image: 'assets/images/rag.png',
       tags: ['Python', 'Flask', 'OpenAI', 'MongoDB'],
-      github: '#',
-      demo: '#',
+      github: 'https://github.com/akilocorp/rag_platform',
+      demo: 'https://app.bitterlylab.com',
       year: '2025'
     },
     {
@@ -31,9 +31,9 @@ const Projects = () => {
       description:
         'Modern property management solution with automated rent collection and maintenance tracking.',
       image: 'assets/images/epr.png',
-      tags: ['React', 'Java Spring', 'PostgreSQL'],
+      tags: ['React', 'Java Spring Boot ', 'PostgreSQL'],
       github: '#',
-      demo: '#',
+      demo: 'https://www.etpayrent.com/',
       year: '2025'
     },
     {
@@ -60,8 +60,19 @@ const Projects = () => {
       demo: '',
       year: '2025'
     },
-     {
+    {
       id: 6,
+      title: 'EmployTrack - Enterprise HR System',
+      description:
+        'Full-stack enterprise HR management platform with multi-tenant architecture, role-based access control, attendance tracking, and leave management system.',
+      image: 'assets/images/et.png',
+      tags: ['Next.js', 'FastAPI', 'PostgreSQL', 'Docker', 'TypeScript'],
+      github: 'https://github.com/yonathan001/EmployTrack',
+      demo: '#',
+      year: '2026'
+    },
+     {
+      id: 7,
       title: 'AI Driven MicroFinance Solution',
       description:
         'AI-driven credit scoring system using verified identity and behavioral data.',

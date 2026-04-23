@@ -10,9 +10,15 @@ const Experience = () => {
       location: 'Remote - Hong Kong, China',
       duration: '2025 - 2025',
       type: 'Contractual',
-      status: '',
-      description:
-        'Worked on a RAG AI Chat bot Development that integrates a Large Language Model (LLM) with MongoDB vector search. Used embeddings to store and retrieve relevant documents based on user queries with HNSW Algorithm. The retrieved context is then passed to the LLM to generate accurate, context-aware responses.',
+      status: 'Completed',
+      description: 'Developed enterprise RAG AI chatbot integrating LLM with MongoDB vector search for intelligent document retrieval.',
+      highlights: [
+        'Architected and implemented RAG (Retrieval-Augmented Generation) system using LLM and MongoDB vector search',
+        'Optimized document retrieval using HNSW algorithm for efficient similarity search',
+        'Designed embedding pipeline to store and retrieve context-aware information based on user queries',
+        'Integrated LLM to generate accurate responses using retrieved context',
+        'Delivered production-ready AI solution meeting client requirements and deadlines'
+      ],
       skills: ['Python', 'RAG', 'LLM', 'MongoDB', 'Vector Search', 'HNSW', 'AI/ML'],
       link: 'https://app.bitterlylab.com/'
     },
@@ -23,23 +29,37 @@ const Experience = () => {
       location: 'Hybrid - Addis Ababa, Ethiopia',
       duration: 'March 2025 - Nov 2025',
       type: 'Full-time',
-      status: '',
-      description:
-        'Developing and maintaining comprehensive property management platform. Integrated Telebirr and multiple payment gateways for seamless transactions.',
+      status: 'Completed',
+      description: 'Built comprehensive property management platform with integrated payment systems.',
+      highlights: [
+        'Developed full-stack property management system using React and Spring Boot',
+        'Integrated Telebirr and multiple payment gateways for seamless transactions',
+        'Designed and implemented RESTful APIs for property listings, tenant management, and payments',
+        'Built responsive UI components with modern design patterns',
+        'Collaborated with cross-functional team to deliver features on tight deadlines'
+      ],
       skills: ['React', 'Spring Boot', 'Java', 'Payment APIs', 'PostgreSQL'],
-      link: '#'
+      link: 'https://etpayrent.com'
     },
     {
       id: 3,
-      title: 'Software Developer',
+      title: 'Senior Full-Stack Engineer',
       company: 'Freelance & Contract Work',
       location: 'Remote - Addis Ababa, Ethiopia',
       duration: 'Dec 2020 - Present',
       type: 'Freelance',
       status: 'Ongoing',
-      description:
-        'Working with international and local clients delivering end-to-end web application solutions from development to deployment. Built strong client relationships through consistent delivery of high-quality, scalable solutions tailored to diverse business needs.',
-      skills: ['React', 'Python', 'Flask', 'FastAPI', 'Node.js', 'Next.js', 'AI/ML', 'Docker', 'VPS'],
+      description: 'Delivering end-to-end solutions for international and local clients across diverse industries.',
+      highlights: [
+        'Successfully delivered 15+ projects for clients',
+        'Architected and deployed scalable web applications from concept to production',
+        'Leveraged AI-assisted development (Claude AI) to accelerate delivery while maintaining quality',
+        'Managed complete project lifecycle including requirements, development, testing, and deployment',
+        'Deployed and managed production applications using Docker and PM2 process manager',
+        'Built strong client relationships through consistent communication and on-time delivery',
+        'Specialized in healthcare, fintech, and AI-powered applications'
+      ],
+      skills: ['React', 'Python', 'Flask', 'FastAPI', 'Node.js', 'Next.js', 'AI/ML', 'Docker', 'PM2', 'VPS'],
       link: 'https://www.upwork.com/freelancers/~01a7b27982e445e1a0'
     },
     {
@@ -50,8 +70,14 @@ const Experience = () => {
       duration: 'Jun 2024 - Present',
       type: 'Volunteer',
       status: 'Volunteer',
-      description:
-        'Leading IT department strategy and digital transformation initiatives for healthcare NGO. Architected and developed multiple high-impact healthcare technology solutions.',
+      description: 'Leading IT strategy and digital transformation for healthcare NGO.',
+      highlights: [
+        'Defined IT department strategy and technology roadmap for healthcare NGO',
+        'Architected and developed multiple healthcare technology solutions',
+        'Led digital transformation initiatives to improve operational efficiency',
+        'Mentored junior developers and established development best practices',
+        'Collaborated with medical professionals to understand and solve healthcare challenges'
+      ],
       skills: ['Leadership', 'Healthcare Tech', 'System Architecture', 'Web Applications']
     }
 
@@ -135,6 +161,10 @@ const ExperienceCard = ({ exp }) => {
               <span className={`mb-3 inline-block rounded-full px-3 py-1 text-xs ${
                 exp.status === 'Volunteer' 
                   ? 'bg-green-500/20 border border-green-500/40 text-green-400' 
+                  : exp.status === 'Ongoing'
+                  ? 'bg-blue-500/20 border border-blue-500/40 text-blue-400'
+                  : exp.status === 'Completed'
+                  ? 'bg-purple-500/20 border border-purple-500/40 text-purple-400'
                   : 'border border-white/20 bg-white/10'
               }`}>
                 {exp.status}
@@ -163,9 +193,21 @@ const ExperienceCard = ({ exp }) => {
         </div>
 
         {/* Description */}
-        <p className="mb-6 text-sm leading-relaxed text-white/70">
+        <p className="mb-4 text-sm leading-relaxed text-white/70">
           {exp.description}
         </p>
+
+        {/* Highlights/Bullet Points */}
+        {exp.highlights && (
+          <ul className="mb-6 space-y-2 text-sm text-white/70">
+            {exp.highlights.map((highlight, i) => (
+              <li key={i} className="flex items-start gap-2">
+                <span className="text-white/40 mt-1">•</span>
+                <span>{highlight}</span>
+              </li>
+            ))}
+          </ul>
+        )}
 
         {/* Link if available */}
         {exp.link && (
