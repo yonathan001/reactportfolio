@@ -42,7 +42,7 @@ const Projects = () => {
       description:
         'Seamless Ethiopian payment gateway integration with comprehensive transaction management.',
       image: 'assets/images/chapa.png',
-      tags: ['Laravel', 'MySQL', 'CHAPA API'],
+      tags: ['Laravel', 'MySQL', 'CHAPA API', 'REST API'],
       github: 'https://github.com/yonathan001/Chapa_Payment_Laravel',
       demo: '#',
       year: '2024'
@@ -51,7 +51,7 @@ const Projects = () => {
 
     {
       id: 5,
-      title: 'Better auth -  oAuth',
+      title: 'Better auth -  oAuth implementation',
       description:
         'Implementing secure social login with better auth to fully protected OAuth login, automatic session handling, and seamless integration with my backend and Prisma Schema. ',
       image: 'assets/images/ba.png',
@@ -77,7 +77,7 @@ const Projects = () => {
       description:
         'AI-driven credit scoring system using verified identity and behavioral data.',
       image: 'assets/images/mf.png',
-      tags: ['Python', 'Flask', 'React', 'AI'],
+      tags: ['Python', 'Flask', 'React', 'AI', 'JWT'],
       github: 'https://github.com/mckienzie7/MicroFinance-Solution',
       demo: 'https://addismicrofinance.tech/',
       year: '2025'
