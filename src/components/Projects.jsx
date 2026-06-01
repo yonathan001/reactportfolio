@@ -4,6 +4,17 @@ import { useEffect, useRef, useState } from 'react'
 const Projects = () => {
   const projects = [
     {
+      id: 0,
+      title: 'VELKAP - Investment Management System',
+      description:
+        'Enterprise grade investment management platform for investment tracking, financial transactions, and client management with UK regulatory compliance.',
+      image: 'assets/images/velkap.png',
+      tags: ['Laravel', 'Next.js', 'TypeScript', 'MySQL', 'Fintech'],
+      github: '#',
+      demo: 'https://velkap.com/',
+      year: '2026'
+    },
+    {
       id: 1,
       title: 'RAG AI Chatbot',
       description:

@@ -4,6 +4,25 @@ import { useEffect, useRef, useState } from 'react'
 const Experience = () => {
   const experiences = [
     {
+      id: 8,
+      title: 'Software Engineer',
+      company: 'VELKAP Ltd',
+      location: 'Remote - London, UK',
+      duration: '2026 - Present',
+      type: 'Full-time',
+      status: 'Ongoing',
+      description: 'Developing enterprise investment management system for UK-based fintech company.',
+      highlights: [
+        'Building full-stack investment management platform using Laravel and Next.js',
+        'Architecting scalable backend APIs for Investment management and financial transactions',
+        'Implementing responsive frontend with modern React patterns and TypeScript',
+        'Collaborating with teams',
+        'Ensuring compliance with UK financial regulations and data security standards'
+      ],
+      skills: ['Laravel', 'Next.js', 'TypeScript', 'MySQL', 'REST APIs', 'Fintech'],
+      link: 'https://velkap.com/'
+    },
+    {
       id: 4,
       title: 'AI Focus Back-end Engineer, RAG Development',
       company: 'Akilo Technology',
