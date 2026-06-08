@@ -30,7 +30,7 @@ const Hero = () => {
                   <FiCode className="text-white text-xl" />
                 </div>
                 <p className="text-xl md:text-2xl text-white/90 font-semibold">
-                  Senior Software Engineer & Architect
+                  Senior Software Engineer
                 </p>
               </div>
               
