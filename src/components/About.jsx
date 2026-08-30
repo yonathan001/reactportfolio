@@ -183,7 +183,7 @@ const About = () => {
                     </div>
                     <div>
                       <p className="text-white font-medium text-sm">AI-Assisted Development</p>
-                      <p className="text-white/60 text-xs mt-1">Using claude AI 4.5 / 4.6</p>
+                      <p className="text-white/60 text-xs mt-1">Using Claude Code, Cursor, etc.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
