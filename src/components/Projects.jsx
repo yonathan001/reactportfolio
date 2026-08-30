@@ -27,7 +27,7 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: 'Property Managment ETpay Rent',
+      title: 'Property Management ETpay Rent',
       description:
         'Modern property management solution with automated rent collection and maintenance tracking.',
       image: 'assets/images/epr.png',
@@ -155,22 +155,28 @@ const ProjectCard = ({ project }) => {
 
         {/* Overlay actions */}
         <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-all duration-300">
-          <a
-            href={project.github}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="p-3 rounded-xl bg-white/10 backdrop-blur-sm hover:bg-white/20 hover:scale-110 transition-all duration-200"
-          >
-            <FiGithub />
-          </a>
-          <a
-            href={project.demo}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="p-3 rounded-xl bg-white/10 backdrop-blur-sm hover:bg-white/20 hover:scale-110 transition-all duration-200"
-          >
-            <FiExternalLink />
-          </a>
+          {project.github && project.github !== '#' && (
+            <a
+              href={project.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`View ${project.title} on GitHub`}
+              className="p-3 rounded-xl bg-white/10 backdrop-blur-sm hover:bg-white/20 hover:scale-110 transition-all duration-200"
+            >
+              <FiGithub />
+            </a>
+          )}
+          {project.demo && project.demo !== '#' && (
+            <a
+              href={project.demo}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`View live demo of ${project.title}`}
+              className="p-3 rounded-xl bg-white/10 backdrop-blur-sm hover:bg-white/20 hover:scale-110 transition-all duration-200"
+            >
+              <FiExternalLink />
+            </a>
+          )}
         </div>
       </div>
 
@@ -201,22 +207,26 @@ const ProjectCard = ({ project }) => {
 
         {/* Buttons */}
         <div className="flex gap-3">
-          <a
-            href={project.github}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex-1 flex items-center justify-center gap-2 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 py-2 text-sm transition-all duration-200"
-          >
-            <FiGithub /> Code
-          </a>
-          <a
-            href={project.demo}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex-1 flex items-center justify-center gap-2 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 py-2 text-sm transition-all duration-200"
-          >
-            Demo <FiExternalLink />
-          </a>
+          {project.github && project.github !== '#' && (
+            <a
+              href={project.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 flex items-center justify-center gap-2 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 py-2 text-sm transition-all duration-200"
+            >
+              <FiGithub /> Code
+            </a>
+          )}
+          {project.demo && project.demo !== '#' && (
+            <a
+              href={project.demo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 flex items-center justify-center gap-2 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 py-2 text-sm transition-all duration-200"
+            >
+              Demo <FiExternalLink />
+            </a>
+          )}
         </div>
       </div>
     </article>

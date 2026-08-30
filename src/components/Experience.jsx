@@ -5,7 +5,7 @@ const Experience = () => {
   const experiences = [
     {
       id: 8,
-      title: 'Software Engineer',
+      title: 'Full-Stack Software Engineer',
       company: 'VELKAP Ltd',
       location: 'Remote - London, UK',
       duration: '2026 - Present',
@@ -62,7 +62,7 @@ const Experience = () => {
     },
     {
       id: 3,
-      title: 'Senior Full-Stack Engineer',
+      title: 'Full-Stack Software Engineer',
       company: 'Freelance & Contract Work',
       location: 'Remote - Addis Ababa, Ethiopia',
       duration: 'Dec 2020 - Present',

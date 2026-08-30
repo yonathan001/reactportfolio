@@ -68,7 +68,7 @@ const About = () => {
                 <h3 className="text-2xl font-bold text-white mb-1">
                   Yonathan Wondosen
                 </h3>
-                <p className="text-white/70 text-sm mb-6">Senior Software Engineer</p>
+                <p className="text-white/70 text-sm mb-6">Full-Stack Software Engineer</p>
                 
                 {/* Contact Info */}
                 <div className="space-y-3 text-left">
@@ -156,10 +156,10 @@ const About = () => {
               
               <div className="space-y-5 text-white/70 leading-relaxed">
                 <p className="text-base">
-                  Hey! I'm Yonathan Wondosen, a <span className="text-white font-semibold">Senior Software Engineer</span> specializing in enterprise-grade system design, Complex Web-applications Design and Development and microservices architecture.  I architect and build scalable solutions using <span className="text-white font-semibold">React/Next.js</span>, <span className="text-white font-semibold">TypeScript</span>, <span className="text-white font-semibold">Python (FastAPI, Flask)</span>, <span className="text-white font-semibold">Laravel</span>, <span className="text-white font-semibold">Node/Express</span>, and <span className="text-white font-semibold"> SQL / NoSQL databases</span>.
+                  Hey! I'm Yonathan Wondosen, a <span className="text-white font-semibold">Full-Stack Software Engineer</span> specializing in enterprise-grade system design, Complex Web-applications Design and Development and microservices architecture.  I architect and build scalable solutions using <span className="text-white font-semibold">React/Next.js</span>, <span className="text-white font-semibold">TypeScript</span>, <span className="text-white font-semibold">Python (FastAPI, Flask)</span>, <span className="text-white font-semibold">Laravel</span>, <span className="text-white font-semibold">Node/Express</span>, and <span className="text-white font-semibold"> SQL / NoSQL databases</span>.
                 </p>
                 <p className="text-base">
-                  I leverage <span className="text-white font-semibold">AI-assisted development</span> (Claude AI Sonnet 4.5/4.6) to accelerate delivery while maintaining code quality. My expertise spans <span className="text-white font-semibold">system design</span>, <span className="text-white font-semibold">scalable architectures</span>, <span className="text-white font-semibold">Docker/Kubernetes</span> and <span className="text-white font-semibold">PM2-managed deployments</span>, <span className="text-white font-semibold">VPS infrastructure</span>, and <span className="text-white font-semibold">CI/CD automation</span>. I excel at delivering complex solutions under high-pressure deadlines for international clients. Familiar with microservices patterns and distributed systems.
+                  I leverage <span className="text-white font-semibold">AI-assisted development</span> (Claude Code, Cursor, etc.) to accelerate delivery while maintaining code quality. My expertise spans <span className="text-white font-semibold">system design</span>, <span className="text-white font-semibold">scalable architectures</span>, <span className="text-white font-semibold">Docker/Kubernetes</span> and <span className="text-white font-semibold">PM2-managed deployments</span>, <span className="text-white font-semibold">VPS infrastructure</span>, and <span className="text-white font-semibold">CI/CD automation</span>. I excel at delivering complex solutions under high-pressure deadlines for international clients. Familiar with microservices patterns and distributed systems.
                 </p>
                 
                 {/* Highlights */}

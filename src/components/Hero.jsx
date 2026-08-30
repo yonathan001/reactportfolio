@@ -30,7 +30,7 @@ const Hero = () => {
                   <FiCode className="text-white text-xl" />
                 </div>
                 <p className="text-xl md:text-2xl text-white/90 font-semibold">
-                  Senior Software Engineer
+                  Full-Stack Software Engineer
                 </p>
               </div>
               
@@ -83,14 +83,14 @@ const Hero = () => {
                     <div className="flex gap-2 md:gap-4 pl-4 md:pl-8">
                       <span className="text-white/30">3</span>
                       <span className="text-blue-300">role:</span>
-                      <span className="text-green-400">'Full-Stack Engineer & Architect'</span>
+                      <span className="text-green-400">'Full-Stack Software Engineer'</span>
                       <span className="text-white/60">,</span>
                     </div>
                     <div className="flex gap-2 md:gap-4 pl-4 md:pl-8">
                       <span className="text-white/30">4</span>
                       <span className="text-blue-300">skills:</span>
                       <span className="text-white/60">[</span>
-                      <span className="text-green-400">'Javascript'</span>
+                      <span className="text-green-400">'TypeScript'</span>
                       <span className="text-white/60">,</span>
                       <span className="text-green-400">'Python'</span>
                       <span className="text-white/60">,</span>
