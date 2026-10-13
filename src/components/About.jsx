@@ -1,28 +1,30 @@
-import { FiUser, FiPhone, FiMail, FiGithub, FiLinkedin, FiMapPin, FiInstagram } from 'react-icons/fi';
+import { FiUser, FiPhone, FiMail, FiGithub, FiLinkedin, FiMapPin } from 'react-icons/fi';
 import { FaTelegramPlane } from 'react-icons/fa';
+import { TbBrandCSharp } from 'react-icons/tb';
 import { 
   SiReact, SiNextdotjs, SiJavascript, SiTypescript, SiTailwindcss,
   SiPython, SiFastapi, SiFlask, SiLaravel, SiNodedotjs,
-  SiMysql, SiPostgresql, SiMongodb, SiDocker, SiGit
+  SiMysql, SiPostgresql, SiMongodb, SiDocker, SiGit, SiDotnet
 } from 'react-icons/si';
 
 const About = () => {
   const skills = [
     { name: 'React', icon: SiReact },
     { name: 'Next.js', icon: SiNextdotjs },
-    { name: 'JavaScript', icon: SiJavascript },
     { name: 'TypeScript', icon: SiTypescript },
-    { name: 'Tailwind', icon: SiTailwindcss },
+    { name: 'JavaScript', icon: SiJavascript },
     { name: 'Python', icon: SiPython },
     { name: 'FastAPI', icon: SiFastapi },
     { name: 'Flask', icon: SiFlask },
+    { name: 'C#', icon: TbBrandCSharp },
+    { name: '.NET', icon: SiDotnet },
     { name: 'Laravel', icon: SiLaravel },
     { name: 'Node.js', icon: SiNodedotjs },
+    { name: 'Tailwind', icon: SiTailwindcss },
     { name: 'MySQL', icon: SiMysql },
     { name: 'PostgreSQL', icon: SiPostgresql },
     { name: 'MongoDB', icon: SiMongodb },
     { name: 'Docker', icon: SiDocker },
-    { name: 'PM2', icon: SiNodedotjs },
     { name: 'Git', icon: SiGit }
   ];
 
@@ -60,10 +62,22 @@ const About = () => {
           <div className="grid lg:grid-cols-5 gap-6 mb-12">
             {/* Left - Profile Card */}
             <div className="lg:col-span-2 space-y-6">
-              {/* Profile Image Placeholder */}
               <div className="bg-gradient-to-br from-white/10 to-white/5 border border-white/10 rounded-2xl p-8 text-center hover:border-white/20 transition-all duration-300">
-                <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-white/10 border-2 border-white/20 flex items-center justify-center">
-                  <FiUser className="text-white text-5xl" />
+                {/* Profile Image */}
+                <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-2 border-white/20 bg-white/10 flex items-center justify-center relative shadow-inner">
+                  <img
+                    src="/profile.png"
+                    alt="Yonathan Wondosen"
+                    className="w-full h-full object-cover"
+                    onError={(e) => {
+                      e.currentTarget.style.display = 'none';
+                      const fallback = e.currentTarget.parentElement?.querySelector('.avatar-fallback');
+                      if (fallback) fallback.classList.remove('hidden');
+                    }}
+                  />
+                  <div className="avatar-fallback hidden w-full h-full flex items-center justify-center bg-white/10">
+                    <FiUser className="text-white text-5xl" />
+                  </div>
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-1">
                   Yonathan Wondosen
@@ -113,15 +127,6 @@ const About = () => {
                     <FiLinkedin className="text-white" />
                   </a>
                   <a
-                    href="https://www.instagram.com/yo_na_th_an/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-3 bg-white/10 rounded-lg hover:bg-white/15 hover:scale-110 transition-all"
-                    aria-label="Instagram"
-                  >
-                    <FiInstagram className="text-white" />
-                  </a>
-                  <a
                     href="https://t.me/yo_na_th_an"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -156,10 +161,10 @@ const About = () => {
               
               <div className="space-y-5 text-white/70 leading-relaxed">
                 <p className="text-base">
-                  Hey! I'm Yonathan Wondosen, a <span className="text-white font-semibold">Full-Stack Software Engineer</span> specializing in enterprise-grade system design, Complex Web-applications Design and Development and microservices architecture.  I architect and build scalable solutions using <span className="text-white font-semibold">React/Next.js</span>, <span className="text-white font-semibold">TypeScript</span>, <span className="text-white font-semibold">Python (FastAPI, Flask)</span>, <span className="text-white font-semibold">Laravel</span>, <span className="text-white font-semibold">Node/Express</span>, and <span className="text-white font-semibold"> SQL / NoSQL databases</span>.
+                  Hey! I&apos;m Yonathan Wondosen, a <span className="text-white font-semibold">Full-Stack Software Engineer</span> specializing in enterprise system design, scalable web applications, and microservices architecture. I build and scale robust solutions using <span className="text-white font-semibold">React/Next.js</span>, <span className="text-white font-semibold">TypeScript</span>, <span className="text-white font-semibold">Python (FastAPI, Flask)</span>, <span className="text-white font-semibold">C# / .NET</span>, <span className="text-white font-semibold">Laravel</span>, <span className="text-white font-semibold">Node/Express</span>, and <span className="text-white font-semibold">SQL / NoSQL databases</span>.
                 </p>
                 <p className="text-base">
-                  I leverage <span className="text-white font-semibold">AI-assisted development</span> (Claude Code, Cursor, etc.) to accelerate delivery while maintaining code quality. My expertise spans <span className="text-white font-semibold">system design</span>, <span className="text-white font-semibold">scalable architectures</span>, <span className="text-white font-semibold">Docker/Kubernetes</span> and <span className="text-white font-semibold">PM2-managed deployments</span>, <span className="text-white font-semibold">VPS infrastructure</span>, and <span className="text-white font-semibold">CI/CD automation</span>. I excel at delivering complex solutions under high-pressure deadlines for international clients. Familiar with microservices patterns and distributed systems.
+                  I leverage <span className="text-white font-semibold">AI-assisted development</span> (Claude Code, Cursor) to accelerate delivery velocity while preserving clean code and strong architecture. My expertise spans <span className="text-white font-semibold">system architecture</span>, <span className="text-white font-semibold">containerization (Docker/Kubernetes)</span>, <span className="text-white font-semibold">cloud &amp; VPS infrastructure</span>, and <span className="text-white font-semibold">CI/CD automation</span>. I excel at delivering mission-critical solutions in fast-paced, asynchronous environments for distributed international teams.
                 </p>
                 
                 {/* Highlights */}
@@ -182,8 +187,8 @@ const About = () => {
                       </svg>
                     </div>
                     <div>
-                      <p className="text-white font-medium text-sm">AI-Assisted Development</p>
-                      <p className="text-white/60 text-xs mt-1">Using Claude Code, Cursor, etc.</p>
+                      <p className="text-white font-medium text-sm">AI-Assisted Engineering</p>
+                      <p className="text-white/60 text-xs mt-1">Claude Code, Cursor & Automated Workflows</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -193,8 +198,8 @@ const About = () => {
                       </svg>
                     </div>
                     <div>
-                      <p className="text-white font-medium text-sm">Critical Problem Solver</p>
-                      <p className="text-white/60 text-xs mt-1">In High-pressure work Enviroment and Deadlines</p>
+                      <p className="text-white font-medium text-sm">Critical Problem Solving</p>
+                      <p className="text-white/60 text-xs mt-1">Thriving under tight deadlines & high stakes</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -204,8 +209,8 @@ const About = () => {
                       </svg>
                     </div>
                     <div>
-                      <p className="text-white font-medium text-sm">Strong communication</p>
-                      <p className="text-white/60 text-xs mt-1"> With Local and International Clients  </p>
+                      <p className="text-white font-medium text-sm">Global Collaboration</p>
+                      <p className="text-white/60 text-xs mt-1">Fluent async communication with remote teams</p>
                     </div>
                   </div>
                 </div>

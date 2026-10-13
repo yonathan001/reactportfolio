@@ -2,7 +2,7 @@ import { FiDownload, FiCode } from 'react-icons/fi';
 
 const Hero = () => {
   const handleDownloadCV = () => {
-    const cvUrl = '/yonathan-resume-JUN 2026.pdf';
+    const cvUrl = '/Yonathan-Wondosen-Resume.pdf';
     const link = document.createElement('a');
     link.href = cvUrl;
     link.download = 'Yonathan-Wondosen-Resume.pdf';
@@ -35,7 +35,7 @@ const Hero = () => {
               </div>
               
               <p className="text-base md:text-lg text-white/60 mb-10 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-                Architecting enterprise-grade systems with 5+ years of experience. Specialized in system design, AI-assisted development, Complex web-applications and delivering complex solutions under high-pressure deadlines.
+                Building scalable, production-ready web applications with 5+ years of experience. Focused on full-stack development, AI-assisted engineering, and shipping high-performance solutions for distributed global teams.
               </p>
 
               {/* CTA Buttons */}

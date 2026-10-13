@@ -1,4 +1,4 @@
-import { FiGithub, FiInstagram, FiLinkedin, FiMail, FiPhone } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiMail, FiPhone } from 'react-icons/fi';
 import { FaTelegramPlane } from 'react-icons/fa';
 
 const Contact = () => {
@@ -16,7 +16,7 @@ const Contact = () => {
           </div>
           
           <p className="text-white/70 text-base mb-10 max-w-xl mx-auto">
-            I'm always looking for new opportunities. Let's connect!
+            I&apos;m always open to discussing new engineering opportunities, high-impact projects, or technical collaborations. Let&apos;s connect!
           </p>
 
           {/* Social Links */}
@@ -52,15 +52,6 @@ const Contact = () => {
               aria-label="LinkedIn"
             >
               <FiLinkedin className="text-white text-lg" />
-            </a>
-            <a
-              href="https://www.instagram.com/yo_na_th_an/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-3 bg-white/5 border border-white/10 rounded-lg hover:bg-white/10 hover:border-white/20 hover:scale-110 transition-all"
-              aria-label="Instagram"
-            >
-              <FiInstagram className="text-white text-lg" />
             </a>
             <a
               href="https://t.me/yo_na_th_an"

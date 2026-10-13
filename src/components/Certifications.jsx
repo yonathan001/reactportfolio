@@ -5,10 +5,10 @@ const Certifications = () => {
     {
       id: 1,
       title: 'Python Django Web Framework',
-      issuer: 'META',
+      issuer: 'Meta',
       platform: 'Coursera',
       date: '2025',
-      description: 'Comprehensive course covering Django web framework, REST APIs, and full-stack development.',
+      description: 'Comprehensive certification covering Django architecture, ORM optimization, and REST API development.',
       credentialUrl: 'https://coursera.org/verify/H6XGZWUQ1RIV',
       tags: ['Django', 'Python', 'REST API']
     },
@@ -18,17 +18,17 @@ const Certifications = () => {
       issuer: 'Stanford University',
       platform: 'Coursera',
       date: '2025',
-      description: 'Advanced machine learning course covering regression and classification algorithms.',
+      description: 'In-depth machine learning course covering regression, classification algorithms, and practical model evaluation.',
       credentialUrl: 'https://coursera.org/verify/EC8Z2W1PYQ9X',
       tags: ['Machine Learning', 'AI', 'Regression']
     },
     {
       id: 3,
-      title: 'RAG (Retrieval Augmented Generation)',
+      title: 'Retrieval-Augmented Generation (RAG)',
       issuer: 'DeepLearning.AI',
       platform: 'Coursera',
       date: '2025',
-      description: 'Cutting-edge course on Retrieval Augmented Generation and language models.',
+      description: 'Specialized training covering vector embeddings, semantic retrieval, and LLM orchestration.',
       credentialUrl: 'https://coursera.org/verify/EME9M2PTADJL',
       tags: ['AI', 'NLP', 'RAG']
     }

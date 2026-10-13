@@ -11,51 +11,51 @@ const Experience = () => {
       duration: '2026 - Present',
       type: 'Full-time',
       status: 'Ongoing',
-      description: 'Developing enterprise investment management system for UK-based fintech company.',
+      description: 'Developing an enterprise investment management platform for a UK-based fintech firm.',
       highlights: [
-        'Building full-stack investment management platform using Laravel and Next.js',
-        'Architecting scalable backend APIs for Investment management and financial transactions',
-        'Implementing responsive frontend with modern React patterns and TypeScript',
-        'Collaborating with teams',
-        'Ensuring compliance with UK financial regulations and data security standards'
+        'Engineering a high-performance investment management platform using C#, .NET, Next.js, and Laravel',
+        'Architecting scalable backend REST APIs for investment portfolios and secure financial transaction processing',
+        'Implementing responsive, accessible user interfaces with modern React patterns and TypeScript',
+        'Collaborating cross-functionally with product, design, and engineering teams in an agile, async environment',
+        'Ensuring strict compliance with UK financial regulations, data privacy, and security standards'
       ],
-      skills: ['Laravel', 'Next.js', 'TypeScript', 'MySQL', 'REST APIs', 'Fintech'],
+      skills: ['C#', '.NET', 'Laravel', 'Next.js', 'TypeScript', 'MySQL', 'REST APIs', 'Fintech'],
       link: 'https://velkap.com/'
     },
     {
       id: 4,
-      title: 'AI Focus Back-end Engineer, RAG Development',
+      title: 'Backend Engineer (AI & RAG Systems)',
       company: 'Akilo Technology',
       location: 'Remote - Hong Kong, China',
-      duration: '2025 - 2025',
-      type: 'Contractual',
+      duration: '2025',
+      type: 'Contract',
       status: 'Completed',
-      description: 'Developed enterprise RAG AI chatbot integrating LLM with MongoDB vector search for intelligent document retrieval.',
+      description: 'Developed an enterprise RAG AI system integrating LLMs with MongoDB vector search for high-accuracy document intelligence.',
       highlights: [
-        'Architected and implemented RAG (Retrieval-Augmented Generation) system using LLM and MongoDB vector search',
-        'Optimized document retrieval using HNSW algorithm for efficient similarity search',
-        'Designed embedding pipeline to store and retrieve context-aware information based on user queries',
-        'Integrated LLM to generate accurate responses using retrieved context',
-        'Delivered production-ready AI solution meeting client requirements and deadlines'
+        'Architected and implemented an end-to-end RAG system coupling OpenAI LLMs with MongoDB vector search',
+        'Optimized semantic document retrieval using the HNSW index algorithm for sub-second similarity search',
+        'Designed automated ingestion and embedding pipelines to chunk, vectorize, and store domain knowledge',
+        'Engineered prompt evaluation workflows to minimize hallucinations and deliver context-grounded responses',
+        'Delivered a production-ready AI solution meeting rigorous client accuracy benchmarks and delivery milestones'
       ],
       skills: ['Python', 'RAG', 'LLM', 'MongoDB', 'Vector Search', 'HNSW', 'AI/ML'],
       link: 'https://app.bitterlylab.com/'
     },
     {
       id: 2,
-      title: 'Full Stack Software Developer',
+      title: 'Full-Stack Software Engineer',
       company: 'EtPayRent',
       location: 'Hybrid - Addis Ababa, Ethiopia',
-      duration: 'March 2025 - Nov 2025',
+      duration: 'Mar 2025 - Nov 2025',
       type: 'Full-time',
       status: 'Completed',
-      description: 'Built comprehensive property management platform with integrated payment systems.',
+      description: 'Built a cloud property management platform with automated rent collection and local payment gateway integrations.',
       highlights: [
-        'Developed full-stack property management system using React and Spring Boot',
-        'Integrated Telebirr and multiple payment gateways for seamless transactions',
-        'Designed and implemented RESTful APIs for property listings, tenant management, and payments',
-        'Built responsive UI components with modern design patterns',
-        'Collaborated with cross-functional team to deliver features on tight deadlines'
+        'Developed full-stack property management features using React, Java Spring Boot, and PostgreSQL',
+        'Integrated Telebirr and regional payment gateways for secure, automated transaction processing',
+        'Designed and implemented robust RESTful APIs for property listings, tenant onboarding, and payment auditing',
+        'Built reusable, responsive UI components ensuring a smooth cross-device user experience',
+        'Collaborated with a cross-functional team to deliver core modules on schedule under tight deadlines'
       ],
       skills: ['React', 'Spring Boot', 'Java', 'Payment APIs', 'PostgreSQL'],
       link: 'https://etpayrent.com'
@@ -68,15 +68,15 @@ const Experience = () => {
       duration: 'Dec 2020 - Present',
       type: 'Freelance',
       status: 'Ongoing',
-      description: 'Delivering end-to-end solutions for international and local clients across diverse industries.',
+      description: 'Delivering end-to-end web applications and architectures for international and local clients across diverse industries.',
       highlights: [
-        'Successfully delivered 15+ projects for clients',
-        'Architected and deployed scalable web applications from concept to production',
-        'Leveraged AI-assisted development (Claude AI) to accelerate delivery while maintaining quality',
-        'Managed complete project lifecycle including requirements, development, testing, and deployment',
-        'Deployed and managed production applications using Docker and PM2 process manager',
-        'Built strong client relationships through consistent communication and on-time delivery',
-        'Specialized in healthcare, fintech, and AI-powered applications'
+        'Successfully delivered 15+ production projects for clients across the US, UK, Europe, and Africa',
+        'Architected, built, and deployed scalable full-stack web applications from discovery to production',
+        'Leveraged modern AI-assisted workflows (Claude, Cursor) to double delivery velocity while preserving clean architecture',
+        'Managed the complete project lifecycle: technical specs, schema design, coding, testing, and cloud deployment',
+        'Configured and maintained containerized production environments using Docker, Nginx, and PM2 on Linux VPS',
+        'Maintained long-term client relationships through proactive communication and reliable on-time delivery',
+        'Specialized in healthcare tech, fintech, and AI-powered workflow automation'
       ],
       skills: ['React', 'Python', 'Flask', 'FastAPI', 'Node.js', 'Next.js', 'AI/ML', 'Docker', 'PM2', 'VPS'],
       link: 'https://www.upwork.com/freelancers/~01a7b27982e445e1a0'
@@ -89,17 +89,16 @@ const Experience = () => {
       duration: 'Jun 2024 - Present',
       type: 'Volunteer',
       status: 'Volunteer',
-      description: 'Leading IT strategy and digital transformation for healthcare NGO.',
+      description: 'Directing technology strategy and digital transformation for a healthcare NGO.',
       highlights: [
-        'Defined IT department strategy and technology roadmap for healthcare NGO',
-        'Architected and developed multiple healthcare technology solutions',
-        'Led digital transformation initiatives to improve operational efficiency',
-        'Mentored junior developers and established development best practices',
-        'Collaborated with medical professionals to understand and solve healthcare challenges'
+        'Formulated technology roadmap and IT architecture aligned with healthcare service initiatives',
+        'Architected and deployed web applications to streamline patient intake and clinical records',
+        'Led digital transformation initiatives that digitized legacy paper-based workflows',
+        'Mentored junior developers on Git workflows, code reviews, and software engineering best practices',
+        'Partnered with healthcare professionals to translate clinical workflows into user-friendly digital tools'
       ],
       skills: ['Leadership', 'Healthcare Tech', 'System Architecture', 'Web Applications']
     }
-
   ]
 
   return (

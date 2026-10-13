@@ -5,33 +5,33 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'RAG AI Chatbot',
+      title: 'Enterprise RAG AI Platform',
       description:
-        'Advanced RAG AI system integrating Large Language Models with MongoDB vector search for accurate, context-aware responses.',
+        'Production-grade Retrieval-Augmented Generation system combining OpenAI LLMs with MongoDB vector search for accurate, context-grounded document intelligence.',
       image: 'assets/images/rag.png',
-      tags: ['Python', 'Flask', 'OpenAI', 'MongoDB'],
+      tags: ['Python', 'Flask', 'OpenAI', 'MongoDB Vector Search'],
       github: 'https://github.com/akilocorp/rag_platform',
       demo: 'https://app.bitterlylab.com',
       year: '2025'
     },
     {
       id: 2,
-      title: 'AI Powered EMR System',
+      title: 'AI-Powered EMR & Clinic Management System',
       description:
-        'Comprehensive clinic management system eliminating paperwork and streamlining healthcare workflow.',
+        'Healthcare operations platform designed to digitize clinical workflows, manage patient records, and streamline appointment scheduling.',
       image: 'assets/images/cms.png',
-      tags: ['React', 'Flask', 'Postgresql'],
+      tags: ['React', 'Flask', 'PostgreSQL'],
       github: '#',
       demo: 'https://bego.et',
       year: '2026'
     },
     {
       id: 3,
-      title: 'Property Management ETpay Rent',
+      title: 'EtPayRent - Property & Payment Platform',
       description:
-        'Modern property management solution with automated rent collection and maintenance tracking.',
+        'Full-stack property management solution featuring automated rent billing, maintenance tracking, and integrated digital payment processing.',
       image: 'assets/images/epr.png',
-      tags: ['React', 'Java Spring Boot ', 'PostgreSQL'],
+      tags: ['React', 'Java Spring Boot', 'PostgreSQL'],
       github: '#',
       demo: 'https://www.etpayrent.com/',
       year: '2025'
@@ -40,22 +40,20 @@ const Projects = () => {
       id: 4,
       title: 'Chapa Payment Gateway Integration',
       description:
-        'Seamless Ethiopian payment gateway integration with comprehensive transaction management.',
+        'Modular payment processing engine for Chapa featuring automated webhook handling, transaction reconciliation, and idempotent payment verification.',
       image: 'assets/images/chapa.png',
-      tags: ['Laravel', 'MySQL', 'CHAPA API', 'REST API'],
+      tags: ['Laravel', 'MySQL', 'Chapa API', 'REST API'],
       github: 'https://github.com/yonathan001/Chapa_Payment_Laravel',
       demo: '#',
       year: '2024'
     },
-   
-
     {
       id: 5,
-      title: 'Better auth -  oAuth implementation',
+      title: 'OAuth 2.0 Authentication & Session Service',
       description:
-        'Implementing secure social login with better auth to fully protected OAuth login, automatic session handling, and seamless integration with my backend and Prisma Schema. ',
+        'Secure authentication architecture implementing multi-provider OAuth login, cryptographically signed session management, and Prisma ORM integration.',
       image: 'assets/images/ba.png',
-      tags: ['Node', 'Next','Prisma','oAuth', 'Better Auth'],
+      tags: ['Node.js', 'Next.js', 'Prisma', 'OAuth 2.0', 'Better Auth'],
       github: 'https://github.com/yonathan001/ecom-node',
       demo: '',
       year: '2025'
@@ -64,20 +62,20 @@ const Projects = () => {
       id: 6,
       title: 'EmployTrack - Enterprise HR System',
       description:
-        'Full-stack enterprise HR management platform with multi-tenant architecture, role-based access control, attendance tracking, and leave management system.',
+        'Full-stack enterprise HR management platform featuring multi-tenant isolation, role-based access control (RBAC), biometric attendance, and leave management.',
       image: 'assets/images/et.png',
       tags: ['Next.js', 'FastAPI', 'PostgreSQL', 'Docker', 'TypeScript'],
       github: 'https://github.com/yonathan001/EmployTrack',
       demo: '#',
       year: '2026'
     },
-     {
+    {
       id: 7,
-      title: 'AI Driven MicroFinance Solution',
+      title: 'AI-Driven Microfinance Credit Platform',
       description:
-        'AI-driven credit scoring system using verified identity and behavioral data.',
+        'Machine learning-assisted credit appraisal system evaluating borrower creditworthiness using digital behavioral signals and verified identity data.',
       image: 'assets/images/mf.png',
-      tags: ['Python', 'Flask', 'React', 'AI', 'JWT'],
+      tags: ['Python', 'Flask', 'React', 'Machine Learning', 'JWT'],
       github: 'https://github.com/mckienzie7/MicroFinance-Solution',
       demo: 'https://addismicrofinance.tech/',
       year: '2025'
