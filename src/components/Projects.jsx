@@ -60,11 +60,11 @@ const Projects = () => {
     },
     {
       id: 5,
-      title: 'OAuth 2.0 Authentication & Session Service',
+      title: 'Better Auth - OAuth 2.0 & Session Service',
       description:
-        'Secure authentication architecture implementing multi-provider OAuth login, cryptographically signed session management, and Prisma ORM integration.',
+        'Production authentication architecture built with Better Auth and Next.js, implementing multi-provider OAuth 2.0 login, cryptographically signed session management, and Prisma ORM integration.',
       image: 'assets/images/ba.png',
-      tags: ['Node.js', 'Next.js', 'Prisma', 'OAuth 2.0', 'Better Auth'],
+      tags: ['Better Auth', 'Next.js', 'OAuth 2.0', 'Prisma', 'Node.js'],
       github: 'https://github.com/yonathan001/ecom-node',
       demo: '',
       year: '2025'
