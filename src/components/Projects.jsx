@@ -4,8 +4,19 @@ import { useEffect, useRef, useState } from 'react'
 const Projects = () => {
   const projects = [
     {
+      id: 8,
+      title: 'Velkap - Investment Platform',
+      description:
+        'Fintech investment management platform featuring a client-facing Investor Portal and internal systems—delivering real-time portfolio analytics, secure multi-asset transactions, and high-throughput financial REST APIs.',
+      image: 'assets/images/velkap.png',
+      tags: ['C#', '.NET', 'Next.js', 'TypeScript', 'Laravel', 'Fintech'],
+      github: '#',
+      demo: 'https://velkap.com/',
+      year: '2026'
+    },
+    {
       id: 1,
-      title: 'Enterprise RAG AI Platform',
+      title: 'RAG AI Platform',
       description:
         'Production-grade Retrieval-Augmented Generation system combining OpenAI LLMs with MongoDB vector search for accurate, context-grounded document intelligence.',
       image: 'assets/images/rag.png',
@@ -60,9 +71,9 @@ const Projects = () => {
     },
     {
       id: 6,
-      title: 'EmployTrack - Enterprise HR System',
+      title: 'EmployTrack - HR Management System',
       description:
-        'Full-stack enterprise HR management platform featuring multi-tenant isolation, role-based access control (RBAC), biometric attendance, and leave management.',
+        'Full-stack HR management platform featuring multi-tenant isolation, role-based access control (RBAC), biometric attendance, and leave management.',
       image: 'assets/images/et.png',
       tags: ['Next.js', 'FastAPI', 'PostgreSQL', 'Docker', 'TypeScript'],
       github: 'https://github.com/yonathan001/EmployTrack',

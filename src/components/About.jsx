@@ -102,12 +102,21 @@ const About = () => {
                     <div className="p-1.5 sm:p-2 bg-white/5 rounded-lg shrink-0">
                       <FiMapPin className="text-white text-xs sm:text-sm" />
                     </div>
-                    <span className="text-xs">Addis Ababa, Ethiopia</span>
+                    <span className="text-xs">Addis Ababa, Ethiopia · Remote Worldwide</span>
                   </div>
                 </div>
 
+                {/* Global Remote Badge */}
+                <div className="mt-4 pt-3.5 border-t border-white/10 flex items-center justify-center gap-2 text-[11px] sm:text-xs text-emerald-400 font-medium">
+                  <span className="relative flex h-2 w-2">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                  </span>
+                  <span>Available for Global Remote Roles (UK/EU/US)</span>
+                </div>
+
                 {/* Social Links */}
-                <div className="flex gap-2.5 sm:gap-3 mt-5 sm:mt-6 justify-center flex-wrap">
+                <div className="flex gap-2.5 sm:gap-3 mt-4 sm:mt-5 justify-center flex-wrap">
                   <a
                     href="https://github.com/yonathan001"
                     target="_blank"
@@ -161,10 +170,10 @@ const About = () => {
               
               <div className="space-y-4 sm:space-y-5 text-white/70 leading-relaxed text-sm sm:text-base">
                 <p>
-                  Hey! I&apos;m Yonathan Wondosen, a <span className="text-white font-semibold">Full-Stack Software Engineer</span> specializing in enterprise system design, scalable web applications, and microservices architecture. I build and scale robust solutions using <span className="text-white font-semibold">React/Next.js</span>, <span className="text-white font-semibold">TypeScript</span>, <span className="text-white font-semibold">Python (FastAPI, Flask)</span>, <span className="text-white font-semibold">C# / .NET</span>, <span className="text-white font-semibold">Laravel</span>, <span className="text-white font-semibold">Node/Express</span>, and <span className="text-white font-semibold">SQL / NoSQL databases</span>.
+                  Hey! I&apos;m Yonathan Wondosen, a <span className="text-white font-semibold">Full-Stack Software Engineer</span> currently engineering fintech solutions remotely for <span className="text-white font-semibold">VELKAP Ltd</span> (a UK-based investment firm). With 5+ years of production experience, I build and scale high-performance web applications using <span className="text-white font-semibold">React/Next.js</span>, <span className="text-white font-semibold">TypeScript</span>, <span className="text-white font-semibold">C# / .NET</span>, <span className="text-white font-semibold">Python (FastAPI, Flask)</span>, and <span className="text-white font-semibold">Laravel</span>.
                 </p>
                 <p>
-                  I leverage <span className="text-white font-semibold">AI-assisted development</span> (Claude Code, Cursor) to accelerate delivery velocity while preserving clean code and strong architecture. My expertise spans <span className="text-white font-semibold">system architecture</span>, <span className="text-white font-semibold">containerization (Docker/Kubernetes)</span>, <span className="text-white font-semibold">cloud &amp; VPS infrastructure</span>, and <span className="text-white font-semibold">CI/CD automation</span>. I excel at delivering mission-critical solutions in fast-paced, asynchronous environments for distributed international teams.
+                  I specialize in client-facing investor portals, secure financial APIs, and <span className="text-white font-semibold">AI-assisted engineering workflows</span> (Claude Code, Cursor) that accelerate delivery without compromising architectural rigor. Experienced in asynchronous collaboration with UK and global distributed teams, I help modern engineering teams turn ambitious product requirements into reliable production code.
                 </p>
                 
                 {/* Highlights */}
@@ -177,7 +186,7 @@ const About = () => {
                     </div>
                     <div>
                       <p className="text-white font-medium text-xs sm:text-sm">System Architecture</p>
-                      <p className="text-white/60 text-[11px] sm:text-xs mt-0.5">Enterprise &amp; Scalable Design</p>
+                      <p className="text-white/60 text-[11px] sm:text-xs mt-0.5">Resilient &amp; Scalable Systems</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">

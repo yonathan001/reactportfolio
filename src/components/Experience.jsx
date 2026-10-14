@@ -19,13 +19,13 @@ const Experience = () => {
       duration: '2026 - Present',
       type: 'Full-time',
       status: 'Ongoing',
-      description: 'Developing an enterprise investment management platform for a UK-based fintech firm.',
+      description: 'Developing fintech solutions—including the client-facing Investor Portal and internal management systems—for a UK-based investment firm.',
       highlights: [
-        'Engineering a high-performance investment management platform using C#, .NET, Next.js, and Laravel',
-        'Architecting scalable backend REST APIs for investment portfolios and secure financial transaction processing',
-        'Implementing responsive, accessible user interfaces with modern React patterns and TypeScript',
+        'Built and scaled the client-facing Investor Portal using Next.js, React, and TypeScript with real-time portfolio analytics',
+        'Engineered high-performance backend APIs and internal management services using C#, .NET, and Laravel',
+        'Implemented secure financial transaction processing, investor onboarding, and automated audit logging',
         'Collaborating cross-functionally with product, design, and engineering teams in an agile, async environment',
-        'Ensuring strict compliance with UK financial regulations, data privacy, and security standards'
+        'Ensuring strict compliance with UK financial data security and privacy regulations'
       ],
       skills: ['C#', '.NET', 'Laravel', 'Next.js', 'TypeScript', 'MySQL', 'REST APIs', 'Fintech'],
       link: 'https://velkap.com/'
@@ -40,7 +40,7 @@ const Experience = () => {
       duration: '2025',
       type: 'Contract',
       status: 'Completed',
-      description: 'Developed an enterprise RAG AI system integrating LLMs with MongoDB vector search for high-accuracy document intelligence.',
+      description: 'Developed a RAG AI system integrating LLMs with MongoDB vector search for high-accuracy document intelligence.',
       highlights: [
         'Architected and implemented an end-to-end RAG system coupling OpenAI LLMs with MongoDB vector search',
         'Optimized semantic document retrieval using the HNSW index algorithm for sub-second similarity search',

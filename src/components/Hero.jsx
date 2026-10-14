@@ -17,6 +17,17 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left Column - Content */}
           <div className="text-center lg:text-left">
+            {/* Live Status Badge */}
+            <div className="inline-flex items-center gap-2 px-3 sm:px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 mb-4 sm:mb-6 backdrop-blur-sm">
+              <span className="relative flex h-2 w-2">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+              </span>
+              <span className="text-xs sm:text-sm text-white/80 font-medium">
+                Software Engineer @ <span className="text-white font-semibold">VELKAP Ltd</span> (UK Fintech · Remote)
+              </span>
+            </div>
+
             {/* Main Heading */}
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 sm:mb-6 leading-tight">
               <span className="block text-white/60 text-lg sm:text-2xl md:text-3xl font-normal mb-1.5 sm:mb-2">Hey, I&apos;m</span>
@@ -33,7 +44,7 @@ const Hero = () => {
             </div>
             
             <p className="text-sm sm:text-base md:text-lg text-white/60 mb-8 sm:mb-10 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-              Building scalable, production-ready web applications with 5+ years of experience. Focused on full-stack development, AI-assisted engineering, and shipping high-performance solutions for distributed global teams.
+              Full-stack software engineer with 5+ years of experience, currently engineering fintech platforms remotely for a UK-based investment firm. Specialized in high-performance web applications and scalable cloud architectures for international teams.
             </p>
 
             {/* CTA Buttons */}
@@ -63,7 +74,7 @@ const Hero = () => {
               </div>
               
               {/* Code Lines */}
-              <div className="space-y-1.5 sm:space-y-2.5 font-mono text-[11px] sm:text-xs md:text-sm overflow-x-auto scrollbar-none">
+              <div className="space-y-1.5 sm:space-y-2.5 font-mono text-[11px] sm:text-xs md:text-sm overflow-hidden">
                 <div className="flex gap-2 sm:gap-4">
                   <span className="text-white/30 select-none w-3 sm:w-4 text-right shrink-0">1</span>
                   <span className="text-purple-400">const</span>
@@ -73,45 +84,49 @@ const Hero = () => {
                 </div>
                 <div className="flex gap-2 sm:gap-4 pl-3 sm:pl-6">
                   <span className="text-white/30 select-none w-3 sm:w-4 text-right shrink-0">2</span>
-                  <span className="text-blue-300">name:</span>
-                  <span className="text-green-400">&apos;Yonathan Wondosen&apos;</span>
-                  <span className="text-white/60">,</span>
+                  <div className="flex flex-wrap items-baseline min-w-0">
+                    <span className="text-blue-300 mr-1.5 sm:mr-2">name:</span>
+                    <span className="text-green-400">&apos;Yonathan Wondosen&apos;</span>
+                    <span className="text-white/60">,</span>
+                  </div>
                 </div>
                 <div className="flex gap-2 sm:gap-4 pl-3 sm:pl-6">
                   <span className="text-white/30 select-none w-3 sm:w-4 text-right shrink-0">3</span>
-                  <span className="text-blue-300">role:</span>
-                  <span className="text-green-400">&apos;Full-Stack Engineer&apos;</span>
-                  <span className="text-white/60">,</span>
+                  <div className="flex flex-wrap items-baseline min-w-0">
+                    <span className="text-blue-300 mr-1.5 sm:mr-2">role:</span>
+                    <span className="text-green-400">&apos;Full-Stack Engineer&apos;</span>
+                    <span className="text-white/60">,</span>
+                  </div>
                 </div>
                 <div className="flex gap-2 sm:gap-4 pl-3 sm:pl-6">
                   <span className="text-white/30 select-none w-3 sm:w-4 text-right shrink-0">4</span>
-                  <span className="text-blue-300">skills:</span>
-                  <span className="text-white/60">[</span>
-                  <span className="text-green-400">&apos;React&apos;</span>
-                  <span className="text-white/60">,</span>
-                  <span className="text-green-400">&apos;Python&apos;</span>
-                  <span className="text-white/60">,</span>
-                  <span className="text-green-400">&apos;.NET&apos;</span>
-                  <span className="text-white/60">],</span>
+                  <div className="flex flex-wrap items-baseline min-w-0">
+                    <span className="text-blue-300 mr-1.5 sm:mr-2">skills:</span>
+                    <span className="text-white/60">[</span>
+                    <span className="text-green-400">&apos;TypeScript&apos;</span>
+                    <span className="text-white/60">,&nbsp;</span>
+                    <span className="text-green-400">&apos;Python&apos;</span>
+                    <span className="text-white/60">,&nbsp;</span>
+                    <span className="text-green-400">&apos;.NET&apos;</span>
+                    <span className="text-white/60">,&nbsp;</span>
+                    <span className="text-green-400">&apos;AI&apos;</span>
+                    <span className="text-white/60">],</span>
+                  </div>
                 </div>
                 <div className="flex gap-2 sm:gap-4 pl-3 sm:pl-6">
                   <span className="text-white/30 select-none w-3 sm:w-4 text-right shrink-0">5</span>
-                  <span className="text-blue-300">experience:</span>
-                  <span className="text-orange-400">&apos;5+ Years&apos;</span>
-                  <span className="text-white/60">,</span>
-                </div>
-                <div className="flex gap-2 sm:gap-4 pl-3 sm:pl-6">
-                  <span className="text-white/30 select-none w-3 sm:w-4 text-right shrink-0">6</span>
-                  <span className="text-blue-300">passion:</span>
-                  <span className="text-green-400">&apos;Building Solutions&apos;</span>
+                  <div className="flex flex-wrap items-baseline min-w-0">
+                    <span className="text-blue-300 mr-1.5 sm:mr-2">experience:</span>
+                    <span className="text-orange-400">&apos;5+ Years&apos;</span>
+                  </div>
                 </div>
                 <div className="flex gap-2 sm:gap-4">
-                  <span className="text-white/30 select-none w-3 sm:w-4 text-right shrink-0">7</span>
+                  <span className="text-white/30 select-none w-3 sm:w-4 text-right shrink-0">6</span>
                   <span className="text-white/60">{'}'}</span>
                   <span className="text-white/60">;</span>
                 </div>
                 <div className="flex gap-2 sm:gap-4 pt-1 sm:pt-2">
-                  <span className="text-white/30 select-none w-3 sm:w-4 text-right shrink-0">8</span>
+                  <span className="text-white/30 select-none w-3 sm:w-4 text-right shrink-0">7</span>
                   <span className="text-purple-400">export default</span>
                   <span className="text-blue-400">Developer</span>
                   <span className="text-white/60">;</span>
