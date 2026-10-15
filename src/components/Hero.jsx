@@ -2,10 +2,10 @@ import { FiDownload, FiCode } from 'react-icons/fi';
 
 const Hero = () => {
   const handleDownloadCV = () => {
-    const cvUrl = '/Yonathan-Wondosen-Resume.pdf';
+    const cvUrl = '/Resume-Yonathan-Wondosen.pdf';
     const link = document.createElement('a');
     link.href = cvUrl;
-    link.download = 'Yonathan-Wondosen-Resume.pdf';
+    link.download = 'Resume-Yonathan-Wondosen.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
