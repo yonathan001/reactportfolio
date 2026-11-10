@@ -1,0 +1,75 @@
+﻿YONATHAN WONDOSEN
+Software Engineer
+Addis Ababa, Ethiopia   |   +251 914287268   |   yonathanwondosen@gmail.com
+yonathans.vercel.app    | github.com/yonathan001
+	PROFESSIONAL SUMMARY
+Full-Stack Software Engineer with continuous engineering and production experience since 2022, combining rigorous academic computer science training with hands-on professional application development. Proven track record designing, building, and scaling secure, high-performance web applications, enterprise fintech platforms, and healthcare systems. Proficient across TypeScript (React, Next.js), Node.js (Express), Python (FastAPI, Flask), C#/.NET, REST APIs, with expertise in AI-powered RAG pipelines, microservices optimization, cloud infrastructure (AWS, Azure, VPS), and complex financial system integrations.
+
+
+WORK EXPERIENCE
+Fullstack Software Engineer | VELKAP Ltd
+London, UK (Remote)  |  May 2026 – Present (Contractual)
+* Architecting and engineering two distinct enterprise systems for a UK-based fintech firm: an investment management platform and an investor portal backend powered by C#/.NET paired with a Next.js frontend deployed on Azure.
+* Designing high-throughput backend APIs for financial transaction processing and investment portfolio tracking.
+* Developing highly responsive, accessible user interfaces using modern React patterns, TypeScript, and state management strategies.
+* Ensuring strict compliance with UK financial regulatory guidelines and data security standards across all services.
+* Key Achievement: Engineered high-throughput backend services using .NET, implementing an FCA compliance rules engine, robust OIDC authentication, automated PII redaction, and Azure infrastructure automation for continuous deployment.
+
+
+Backend Engineer, AI / RAG Development | Akilo Technology
+Hong Kong, China (Remote)  |  June 2025 – September 2025 (Contractual)
+* Built a RAG chatbot with two modes: a public, no-login mode that collects survey responses through conversation and is embedded in Qualtrics surveys via custom HTML/JavaScript, and a private mode that answers questions from the client’s documents.
+* Built pipelines for embedding storage and semantic retrieval with MongoDB vector search (HNSW), grounding LLM answers in the client’s content.
+* Tuned HNSW parameters, embedding strategy and semantic chunking to improve retrieval relevance and reduce hallucinated answers.
+* Deployed the vector search and embedding services in containers on AWS.
+
+
+Fullstack Software Engineer | EtPay-Rent PLC
+Addis Ababa, Ethiopia  |  March 2025 – November 2025 (Full-time / Hybrid)
+* Led full-stack engineering for a real estate and rent collection application, ensuring high availability and system reliability.
+* Integrated local and international digital payment gateways, including Chapa/ Telebirr, establishing fault-tolerant transaction workflows.
+* Investigated and resolved core payment integration edge cases, directly enhancing payment processing success rates.
+* Evaluated third-party integrations and modern architectural paradigms to drive continuous platform optimization.
+* Key Achievement: Boosted application throughput and reduced response latency by refactoring resource-intensive backend modules and optimizing database query executions.
+
+
+Co-Founder & Technical Lead | Bego Healthcare Solution  (bego.et)
+Addis Ababa, Ethiopia  |  February 2025 – Present
+* Built and operate BEGO, an AI-powered EMR for dental and medical clinics, replacing paper-based workflows with digital patient records, clinical workflows and branch analytics (React, Flask).
+* Developed a doctor-facing AI assistant that suggests treatment plans for clinician review.
+* Selected for the Ethiopian Artificial Intelligence Institute (EAII) AI Startup  Incubation Program.
+* Key Achievement: Grew the platform to 5 clinics and 4,000+ patients at 99% uptime, deployed with Docker and PM2 on production VPS infrastructure.
+
+
+Technology Officer | Ethiopian Kidney Care NGO
+Addis Ababa, Ethiopia  |  April 2024 – November 2026  (Volunteer)
+* Managed and maintained the organization's website while integrating external systems to streamline data synchronization and workflows.
+* Designed and deployed an automated health screening web application, streamlining patient data validation and campaign analytics.
+* Expanded web application capabilities by building user-focused features and responsive user interfaces.
+* Key Achievement: Built a kidney health screening web app that processed 100+ patients across 1 campaign, replacing manual spreadsheet entry.
+
+
+SKILLS & COMPETENCIES
+
+
+Domain
+	Core Skills & Technologies
+	Primary Stack
+	TypeScript (React, Next.js), Node.js (Express), Python (FastAPI, Flask), C#/.NET, REST APIs
+	Secondary Languages & Frameworks
+	 Java Spring Boot, GraphQL
+	Cloud & DevOps
+	AWS, Azure, VPS Infrastructure, Docker, PM2, CI/CD Pipelines, Microservices Architecture
+	AI & Data Engineering
+	RAG Development, Vector Search (HNSW, MongoDB Vector Search), OpenAI API
+	Databases
+	PostgreSQL, MySQL, MongoDB, Prisma ORM
+	Professional
+	Project Management, Team Leadership, Technical Documentation, System Architecture
+	EDUCATION
+BSc in Computer Science
+Unity University – Addis Ababa, Ethiopia (2022 – 2026)
+LANGUAGES
+* English: Professional Working Proficiency
+* Amharic: Native
+* Oromo: Basic Proficiency

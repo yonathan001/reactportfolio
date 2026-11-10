@@ -44,7 +44,7 @@ const Hero = () => {
             </div>
             
             <p className="text-sm sm:text-base md:text-lg text-white/60 mb-8 sm:mb-10 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-              Full-stack software engineer with 5+ years of experience, currently engineering fintech platforms remotely for a UK-based investment firm. Specialized in high-performance web applications and scalable cloud architectures for international teams.
+              Full-Stack Software Engineer with <span className="text-white font-medium">5+ years of experience</span>, combining rigorous academic computer science training with hands-on application development. Currently architecting fintech platforms remotely for <span className="text-white font-medium">VELKAP Ltd</span> (London, UK).
             </p>
 
             {/* CTA Buttons */}
