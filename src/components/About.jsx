@@ -1,38 +1,38 @@
-import { FiUser, FiPhone, FiMail, FiGithub, FiLinkedin, FiMapPin } from 'react-icons/fi';
+import { FiUser, FiPhone, FiMail, FiGithub, FiLinkedin, FiMapPin, FiBookOpen, FiGlobe } from 'react-icons/fi';
 import { FaTelegramPlane } from 'react-icons/fa';
-import { TbBrandCSharp } from 'react-icons/tb';
+import { TbBrandCSharp, TbBrandAzure } from 'react-icons/tb';
 import { 
   SiReact, SiNextdotjs, SiJavascript, SiTypescript, SiTailwindcss,
-  SiPython, SiFastapi, SiFlask, SiLaravel, SiNodedotjs,
-  SiMysql, SiPostgresql, SiMongodb, SiDocker, SiGit, SiDotnet
+  SiPython, SiFastapi, SiFlask, SiLaravel, SiNodedotjs, SiExpress,
+  SiMysql, SiPostgresql, SiMongodb, SiDocker, SiGit, SiDotnet,
+  SiAmazonwebservices, SiOpenai, SiSpringboot, SiPrisma
 } from 'react-icons/si';
 
 const About = () => {
   const skills = [
-    { name: 'React', icon: SiReact },
-    { name: 'Next.js', icon: SiNextdotjs },
     { name: 'TypeScript', icon: SiTypescript },
     { name: 'JavaScript', icon: SiJavascript },
+    { name: 'React', icon: SiReact },
+    { name: 'Next.js', icon: SiNextdotjs },
+    { name: 'Node.js', icon: SiNodedotjs },
+    { name: 'Express', icon: SiExpress },
     { name: 'Python', icon: SiPython },
     { name: 'FastAPI', icon: SiFastapi },
     { name: 'Flask', icon: SiFlask },
     { name: 'C#', icon: TbBrandCSharp },
     { name: '.NET', icon: SiDotnet },
     { name: 'Laravel', icon: SiLaravel },
-    { name: 'Node.js', icon: SiNodedotjs },
-    { name: 'Tailwind', icon: SiTailwindcss },
-    { name: 'MySQL', icon: SiMysql },
+    { name: 'Spring Boot', icon: SiSpringboot },
+    { name: 'OpenAI / RAG', icon: SiOpenai },
     { name: 'PostgreSQL', icon: SiPostgresql },
     { name: 'MongoDB', icon: SiMongodb },
+    { name: 'MySQL', icon: SiMysql },
+    { name: 'Prisma ORM', icon: SiPrisma },
+    { name: 'AWS', icon: SiAmazonwebservices },
+    { name: 'Azure', icon: TbBrandAzure },
     { name: 'Docker', icon: SiDocker },
+    { name: 'Tailwind CSS', icon: SiTailwindcss },
     { name: 'Git', icon: SiGit }
-  ];
-
-  const stats = [
-    { label: 'Years Experience', value: '5+' },
-    { label: 'Projects', value: '10+' },
-    { label: 'Clients', value: '10+' },
-    { label: 'Technologies', value: '15+' }
   ];
 
   return (
@@ -146,19 +146,6 @@ const About = () => {
                   </a>
                 </div>
               </div>
-
-              {/* Stats Grid */}
-              <div className="grid grid-cols-2 gap-2.5 sm:gap-3">
-                {stats.map((stat, index) => (
-                  <div 
-                    key={index}
-                    className="bg-white/5 border border-white/10 rounded-xl p-3.5 sm:p-4 md:p-5 text-center hover:bg-white/[0.07] hover:border-white/20 transition-all duration-300"
-                  >
-                    <div className="text-2xl sm:text-3xl font-bold text-white mb-0.5 sm:mb-1">{stat.value}</div>
-                    <div className="text-[10px] sm:text-xs text-white/60 uppercase tracking-wider">{stat.label}</div>
-                  </div>
-                ))}
-              </div>
             </div>
 
             {/* Right - About Content */}
@@ -170,12 +157,33 @@ const About = () => {
               
               <div className="space-y-4 sm:space-y-5 text-white/70 leading-relaxed text-sm sm:text-base">
                 <p>
-                  Hey! I&apos;m Yonathan Wondosen, a <span className="text-white font-semibold">Full-Stack Software Engineer</span> currently engineering fintech solutions remotely for <span className="text-white font-semibold">VELKAP Ltd</span> (a UK-based investment firm). With 5+ years of production experience, I build and scale high-performance web applications using <span className="text-white font-semibold">React/Next.js</span>, <span className="text-white font-semibold">TypeScript</span>, <span className="text-white font-semibold">C# / .NET</span>, <span className="text-white font-semibold">Python (FastAPI, Flask)</span>, and <span className="text-white font-semibold">Laravel</span>.
+                  Hey! I&apos;m Yonathan Wondosen, a <span className="text-white font-semibold">Full-Stack Software Engineer</span> with <span className="text-white font-semibold">5+ years of experience</span>, combining rigorous academic computer science training with hands-on professional application development. Currently architecting fintech platforms remotely for <span className="text-white font-semibold">VELKAP Ltd</span> (London, UK).
                 </p>
                 <p>
-                  I specialize in client-facing investor portals, secure financial APIs, and <span className="text-white font-semibold">AI-assisted engineering workflows</span> (Claude Code, Cursor) that accelerate delivery without compromising architectural rigor. Experienced in asynchronous collaboration with UK and global distributed teams, I help modern engineering teams turn ambitious product requirements into reliable production code.
+                  I have a proven track record designing, building, and scaling secure, high-performance web applications, enterprise fintech platforms, and healthcare systems. Proficient across <span className="text-white font-semibold">TypeScript (React, Next.js)</span>, <span className="text-white font-semibold">Node.js (Express)</span>, <span className="text-white font-semibold">Python (FastAPI, Flask)</span>, and <span className="text-white font-semibold">C#/.NET</span>, with expertise in AI-powered RAG pipelines, microservices optimization, cloud infrastructure (<span className="text-white font-semibold">AWS, Azure, VPS</span>), and complex financial system integrations.
                 </p>
-                
+
+                {/* Education & Languages */}
+                <div className="grid sm:grid-cols-2 gap-3 pt-3 border-t border-white/10">
+                  <div className="bg-white/5 border border-white/10 rounded-xl p-3.5">
+                    <div className="flex items-center gap-2 text-white font-semibold text-xs sm:text-sm mb-1">
+                      <FiBookOpen className="text-blue-400" />
+                      <span>Education</span>
+                    </div>
+                    <p className="text-white/90 text-xs font-medium">BSc in Computer Science</p>
+                    <p className="text-white/50 text-[11px]">Unity University · 2022 – 2026</p>
+                  </div>
+
+                  <div className="bg-white/5 border border-white/10 rounded-xl p-3.5">
+                    <div className="flex items-center gap-2 text-white font-semibold text-xs sm:text-sm mb-1">
+                      <FiGlobe className="text-emerald-400" />
+                      <span>Languages</span>
+                    </div>
+                    <p className="text-white/90 text-xs font-medium">English <span className="text-white/50 font-normal">(Professional)</span></p>
+                    <p className="text-white/60 text-[11px]">Amharic (Native) · Oromo (Basic)</p>
+                  </div>
+                </div>
+
                 {/* Highlights */}
                 <div className="grid sm:grid-cols-2 gap-3 sm:gap-4 mt-5 sm:mt-6 pt-5 sm:pt-6 border-t border-white/10">
                   <div className="flex items-start gap-3">
@@ -185,8 +193,8 @@ const About = () => {
                       </svg>
                     </div>
                     <div>
-                      <p className="text-white font-medium text-xs sm:text-sm">System Architecture</p>
-                      <p className="text-white/60 text-[11px] sm:text-xs mt-0.5">Resilient &amp; Scalable Systems</p>
+                      <p className="text-white font-medium text-xs sm:text-sm">Fintech &amp; Security</p>
+                      <p className="text-white/60 text-[11px] sm:text-xs mt-0.5">FCA compliance, OIDC &amp; PII redaction</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -196,8 +204,8 @@ const About = () => {
                       </svg>
                     </div>
                     <div>
-                      <p className="text-white font-medium text-xs sm:text-sm">AI-Assisted Engineering</p>
-                      <p className="text-white/60 text-[11px] sm:text-xs mt-0.5">Claude Code, Cursor &amp; Workflows</p>
+                      <p className="text-white font-medium text-xs sm:text-sm">AI &amp; RAG Systems</p>
+                      <p className="text-white/60 text-[11px] sm:text-xs mt-0.5">Vector search, HNSW &amp; LLM orchestration</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -207,8 +215,8 @@ const About = () => {
                       </svg>
                     </div>
                     <div>
-                      <p className="text-white font-medium text-xs sm:text-sm">Critical Problem Solving</p>
-                      <p className="text-white/60 text-[11px] sm:text-xs mt-0.5">Thriving under tight deadlines</p>
+                      <p className="text-white font-medium text-xs sm:text-sm">High-Impact Healthcare</p>
+                      <p className="text-white/60 text-[11px] sm:text-xs mt-0.5">5 clinics, 4k+ patients, EAII Incubation</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -218,8 +226,8 @@ const About = () => {
                       </svg>
                     </div>
                     <div>
-                      <p className="text-white font-medium text-xs sm:text-sm">Global Collaboration</p>
-                      <p className="text-white/60 text-[11px] sm:text-xs mt-0.5">Fluent async remote communication</p>
+                      <p className="text-white font-medium text-xs sm:text-sm">Cloud &amp; DevOps</p>
+                      <p className="text-white/60 text-[11px] sm:text-xs mt-0.5">AWS, Azure, Docker, PM2 &amp; CI/CD</p>
                     </div>
                   </div>
                 </div>

@@ -10,110 +10,105 @@ import {
 const Experience = () => {
   const experiences = [
     {
-      id: 8,
+      id: 1,
       monogram: 'VK',
-      title: 'Full-Stack Software Engineer',
+      title: 'Fullstack Software Engineer',
       company: 'VELKAP Ltd',
       shortName: 'VELKAP Ltd',
-      location: 'Remote - London, UK',
-      duration: '2026 - Present',
-      type: 'Full-time',
+      location: 'London, UK (Remote)',
+      duration: 'May 2026 – Present',
+      type: 'Contractual',
       status: 'Ongoing',
-      description: 'Developing fintech solutions—including the client-facing Investor Portal and internal management systems—for a UK-based investment firm.',
+      description: 'Architecting and engineering two distinct enterprise systems for a UK-based fintech firm: an investment management platform and an investor portal backend powered by C#/.NET paired with a Next.js frontend deployed on Azure.',
       highlights: [
-        'Built and scaled the client-facing Investor Portal using Next.js, React, and TypeScript with real-time portfolio analytics',
-        'Engineered high-performance backend APIs and internal management services using C#, .NET, and Laravel',
-        'Implemented secure financial transaction processing, investor onboarding, and automated audit logging',
-        'Collaborating cross-functionally with product, design, and engineering teams in an agile, async environment',
-        'Ensuring strict compliance with UK financial data security and privacy regulations'
+        'Architecting and engineering two distinct enterprise systems for a UK fintech firm: an investment management platform and an investor portal backend powered by C#/.NET paired with Next.js deployed on Azure',
+        'Designing high-throughput backend APIs for financial transaction processing and investment portfolio tracking',
+        'Developing highly responsive, accessible user interfaces using modern React patterns, TypeScript, and state management strategies',
+        'Ensuring strict compliance with UK financial regulatory guidelines (FCA) and data security standards across all services',
+        'Key Achievement: Engineered high-throughput backend services using .NET, implementing an FCA compliance rules engine, robust OIDC authentication, automated PII redaction, and Azure infrastructure automation for continuous deployment'
       ],
-      skills: ['C#', '.NET', 'Laravel', 'Next.js', 'TypeScript', 'MySQL', 'REST APIs', 'Fintech'],
+      skills: ['C#', '.NET', 'Next.js', 'React', 'TypeScript', 'Azure', 'REST APIs', 'Fintech', 'FCA Compliance'],
       link: 'https://velkap.com/'
     },
     {
-      id: 4,
+      id: 2,
       monogram: 'AT',
-      title: 'Backend Engineer (AI & RAG Systems)',
+      title: 'Backend Engineer, AI / RAG Development',
       company: 'Akilo Technology',
       shortName: 'Akilo Tech',
-      location: 'Remote - Hong Kong, China',
-      duration: '2025',
-      type: 'Contract',
+      location: 'Hong Kong, China (Remote)',
+      duration: 'June 2025 – September 2025',
+      type: 'Contractual',
       status: 'Completed',
-      description: 'Developed a RAG AI system integrating LLMs with MongoDB vector search for high-accuracy document intelligence.',
+      description: 'Engineered a production RAG AI system integrating LLMs with MongoDB vector search for high-accuracy document intelligence and conversational survey collection.',
       highlights: [
-        'Architected and implemented an end-to-end RAG system coupling OpenAI LLMs with MongoDB vector search',
-        'Optimized semantic document retrieval using the HNSW index algorithm for sub-second similarity search',
-        'Designed automated ingestion and embedding pipelines to chunk, vectorize, and store domain knowledge',
-        'Engineered prompt evaluation workflows to minimize hallucinations and deliver context-grounded responses',
-        'Delivered a production-ready AI solution meeting rigorous client accuracy benchmarks and delivery milestones'
+        'Built a RAG chatbot with two modes: a public, no-login mode that collects survey responses through conversation embedded in Qualtrics surveys via custom HTML/JS, and a private mode that answers questions from client documents',
+        'Built pipelines for embedding storage and semantic retrieval with MongoDB vector search (HNSW), grounding LLM answers in client content',
+        'Tuned HNSW parameters, embedding strategy, and semantic chunking to improve retrieval relevance and reduce hallucinated answers',
+        'Deployed containerized vector search and embedding services on AWS infrastructure'
       ],
-      skills: ['Python', 'RAG', 'LLM', 'MongoDB', 'Vector Search', 'HNSW', 'AI/ML'],
+      skills: ['Python', 'RAG Development', 'MongoDB Vector Search', 'HNSW', 'OpenAI API', 'AWS', 'Docker', 'Qualtrics'],
       link: 'https://app.bitterlylab.com/'
     },
     {
-      id: 2,
+      id: 3,
       monogram: 'EP',
-      title: 'Full-Stack Software Engineer',
-      company: 'EtPayRent',
-      shortName: 'EtPayRent',
-      location: 'Hybrid - Addis Ababa, Ethiopia',
-      duration: 'Mar 2025 - Nov 2025',
-      type: 'Full-time',
+      title: 'Fullstack Software Engineer',
+      company: 'EtPay-Rent PLC',
+      shortName: 'EtPay-Rent',
+      location: 'Addis Ababa, Ethiopia (Hybrid)',
+      duration: 'March 2025 – November 2025',
+      type: 'Full-time / Hybrid',
       status: 'Completed',
-      description: 'Built a cloud property management platform with automated rent collection and local payment gateway integrations.',
+      description: 'Led full-stack engineering for a real estate and rent collection application, establishing fault-tolerant digital payment integrations and high system reliability.',
       highlights: [
-        'Developed full-stack property management features using React, Java Spring Boot, and PostgreSQL',
-        'Integrated Telebirr and regional payment gateways for secure, automated transaction processing',
-        'Designed and implemented robust RESTful APIs for property listings, tenant onboarding, and payment auditing',
-        'Built reusable, responsive UI components ensuring a smooth cross-device user experience',
-        'Collaborated with a cross-functional team to deliver core modules on schedule under tight deadlines'
+        'Led full-stack engineering for a real estate and rent collection application, ensuring high availability and system reliability',
+        'Integrated local and international digital payment gateways, including Chapa and Telebirr, establishing fault-tolerant transaction workflows',
+        'Investigated and resolved core payment integration edge cases, directly enhancing payment processing success rates',
+        'Evaluated third-party integrations and modern architectural paradigms to drive continuous platform optimization',
+        'Key Achievement: Boosted application throughput and reduced response latency by refactoring resource-intensive backend modules and optimizing database query executions'
       ],
-      skills: ['React', 'Spring Boot', 'Java', 'Payment APIs', 'PostgreSQL'],
+      skills: ['React', 'Java Spring Boot', 'PostgreSQL', 'Chapa', 'Telebirr', 'Payment APIs', 'REST APIs'],
       link: 'https://etpayrent.com'
     },
     {
-      id: 3,
-      monogram: 'FL',
-      title: 'Full-Stack Software Engineer',
-      company: 'Freelance & Contract Work',
-      shortName: 'Freelance & Contract',
-      location: 'Remote - Addis Ababa, Ethiopia',
-      duration: 'Dec 2020 - Present',
-      type: 'Freelance',
+      id: 4,
+      monogram: 'BG',
+      title: 'Co-Founder & Technical Lead',
+      company: 'Bego Healthcare Solution',
+      shortName: 'Bego Healthcare',
+      location: 'Addis Ababa, Ethiopia',
+      duration: 'February 2025 – Present',
+      type: 'Founding / Leadership',
       status: 'Ongoing',
-      description: 'Delivering end-to-end web applications and architectures for international and local clients across diverse industries.',
+      description: 'Co-founded and engineered BEGO (bego.et), an AI-powered EMR for dental and medical clinics, replacing paper-based workflows with digital patient records, clinical workflows, and branch analytics.',
       highlights: [
-        'Successfully delivered 15+ production projects for clients across the US, UK, Europe, and Africa',
-        'Architected, built, and deployed scalable full-stack web applications from discovery to production',
-        'Leveraged modern AI-assisted workflows (Claude, Cursor) to double delivery velocity while preserving clean architecture',
-        'Managed the complete project lifecycle: technical specs, schema design, coding, testing, and cloud deployment',
-        'Configured and maintained containerized production environments using Docker, Nginx, and PM2 on Linux VPS',
-        'Maintained long-term client relationships through proactive communication and reliable on-time delivery',
-        'Specialized in healthcare tech, fintech, and AI-powered workflow automation'
+        'Built and operate BEGO, an AI-powered EMR for dental and medical clinics, replacing paper workflows with digital patient records, clinical workflows, and branch analytics (React, Flask)',
+        'Developed a doctor-facing AI assistant that analyzes patient data and suggests evidence-based treatment plans for clinician review',
+        'Selected for the prestigious Ethiopian Artificial Intelligence Institute (EAII) AI Startup Incubation Program',
+        'Key Achievement: Scaled the platform to 5 active clinics and 4,000+ patients at 99% uptime, deployed with Docker and PM2 on production VPS infrastructure'
       ],
-      skills: ['React', 'Python', 'Flask', 'FastAPI', 'Node.js', 'Next.js', 'AI/ML', 'Docker', 'PM2', 'VPS'],
-      link: 'https://www.upwork.com/freelancers/~01a7b27982e445e1a0'
+      skills: ['React', 'Flask', 'Python', 'Docker', 'PM2', 'VPS Infrastructure', 'AI/ML', 'PostgreSQL', 'EMR Systems'],
+      link: 'https://bego.et'
     },
     {
-      id: 1,
+      id: 5,
       monogram: 'EK',
       title: 'Technology Officer',
       company: 'Ethiopian Kidney Care NGO',
       shortName: 'Kidney Care NGO',
       location: 'Addis Ababa, Ethiopia',
-      duration: 'Jun 2024 - Present',
+      duration: 'April 2024 – November 2026',
       type: 'Volunteer',
       status: 'Volunteer',
-      description: 'Directing technology strategy and digital transformation for a healthcare NGO.',
+      description: 'Directed technology strategy and deployed automated healthcare web systems to digitize patient health screening workflows and community campaigns.',
       highlights: [
-        'Formulated technology roadmap and IT architecture aligned with healthcare service initiatives',
-        'Architected and deployed web applications to streamline patient intake and clinical records',
-        'Led digital transformation initiatives that digitized legacy paper-based workflows',
-        'Mentored junior developers on Git workflows, code reviews, and software engineering best practices',
-        'Partnered with healthcare professionals to translate clinical workflows into user-friendly digital tools'
+        'Managed and maintained the organization’s website while integrating external systems to streamline data synchronization and workflows',
+        'Designed and deployed an automated health screening web application, streamlining patient data validation and campaign analytics',
+        'Expanded web application capabilities by building user-focused features and responsive user interfaces',
+        'Key Achievement: Built a kidney health screening web app that processed 100+ patients across campaign initiatives, replacing manual spreadsheet entry'
       ],
-      skills: ['Leadership', 'Healthcare Tech', 'System Architecture', 'Web Applications']
+      skills: ['React', 'Web Applications', 'Healthcare Tech', 'System Architecture', 'Patient Data Validation', 'NGO Tech']
     }
   ]
 
@@ -347,19 +342,8 @@ const Experience = () => {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-white text-black font-semibold text-sm hover:bg-gray-200 transition-all shadow-lg hover:scale-105"
                   >
-                    {activeExp.link.includes('upwork') ? (
-                      <>
-                        <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
-                          <path d="M18.561 13.158c-1.102 0-2.135-.467-3.074-1.227l.228-1.076.008-.042c.207-1.143.849-3.06 2.839-3.06 1.492 0 2.703 1.212 2.703 2.703-.001 1.489-1.212 2.702-2.704 2.702zm0-8.14c-2.539 0-4.51 1.649-5.31 4.366-1.22-1.834-2.148-4.036-2.687-5.892H7.828v7.112c-.002 1.406-1.141 2.546-2.547 2.548-1.405-.002-2.543-1.143-2.545-2.548V3.492H0v7.112c0 2.914 2.37 5.303 5.281 5.303 2.913 0 5.283-2.389 5.283-5.303v-1.19c.529 1.107 1.182 2.229 1.974 3.221l-1.673 7.873h2.797l1.213-5.71c1.063.679 2.285 1.109 3.686 1.109 3 0 5.439-2.452 5.439-5.45 0-3-2.439-5.439-5.439-5.439z"/>
-                        </svg>
-                        <span>View Upwork Profile</span>
-                      </>
-                    ) : (
-                      <>
-                        <span>Visit {activeExp.company}</span>
-                        <FiArrowUpRight className="text-base" />
-                      </>
-                    )}
+                    <span>Visit {activeExp.company}</span>
+                    <FiArrowUpRight className="text-base" />
                   </a>
                 </div>
               )}

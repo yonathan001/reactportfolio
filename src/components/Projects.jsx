@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { FiExternalLink, FiGithub, FiCode } from 'react-icons/fi'
 import { useEffect, useRef, useState } from 'react'
 
@@ -5,44 +6,44 @@ const Projects = () => {
   const projects = [
     {
       id: 8,
-      title: 'Velkap - Investment Platform',
+      title: 'Velkap - Investment Platform & Investor Portal',
       description:
-        'Fintech investment management platform featuring a client-facing Investor Portal and internal systems—delivering real-time portfolio analytics, secure multi-asset transactions, and high-throughput financial REST APIs.',
+        'Dual enterprise fintech systems for a UK investment firm: client-facing Investor Portal and investment management backend powered by C#/.NET and Next.js on Azure with FCA compliance engine, OIDC auth, and automated PII redaction.',
       image: 'assets/images/velkap.png',
-      tags: ['C#', '.NET', 'Next.js', 'TypeScript', 'Laravel', 'Fintech'],
+      tags: ['C#', '.NET', 'Next.js', 'TypeScript', 'Azure', 'Fintech', 'FCA Compliance'],
       github: '#',
       demo: 'https://velkap.com/',
       year: '2026'
     },
     {
       id: 1,
-      title: 'RAG AI Platform',
+      title: 'RAG AI Platform & Conversational Bot',
       description:
-        'Production-grade Retrieval-Augmented Generation system combining OpenAI LLMs with MongoDB vector search for accurate, context-grounded document intelligence.',
+        'Production dual-mode RAG platform: public conversational survey collector embedded in Qualtrics surveys via custom HTML/JS, and private document Q&A grounded with MongoDB Vector Search (HNSW) and containerized on AWS.',
       image: 'assets/images/rag.png',
-      tags: ['Python', 'Flask', 'OpenAI', 'MongoDB Vector Search'],
+      tags: ['Python', 'Flask', 'RAG', 'MongoDB Vector Search', 'HNSW', 'AWS', 'Docker'],
       github: 'https://github.com/akilocorp/rag_platform',
       demo: 'https://app.bitterlylab.com',
       year: '2025'
     },
     {
       id: 2,
-      title: 'AI-Powered EMR & Clinic Management System',
+      title: 'BEGO Healthcare - AI-Powered EMR',
       description:
-        'Healthcare operations platform designed to digitize clinical workflows, manage patient records, and streamline appointment scheduling.',
+        'AI-powered EMR and clinic operations system replacing paper workflows with digital patient records, clinical analytics, and doctor-facing AI assistant. Deployed across 5 clinics and 4,000+ patients at 99% uptime; EAII Startup Incubation.',
       image: 'assets/images/cms.png',
-      tags: ['React', 'Flask', 'PostgreSQL'],
+      tags: ['React', 'Flask', 'Docker', 'PM2', 'VPS', 'PostgreSQL', 'AI/ML'],
       github: '#',
       demo: 'https://bego.et',
-      year: '2026'
+      year: '2025 – Present'
     },
     {
       id: 3,
-      title: 'EtPayRent - Property & Payment Platform',
+      title: 'EtPay-Rent - Property & Payment Platform',
       description:
-        'Full-stack property management solution featuring automated rent billing, maintenance tracking, and integrated digital payment processing.',
+        'Full-stack real estate and rent collection platform featuring automated billing, fault-tolerant Chapa and Telebirr digital payment workflows, and high-throughput query optimizations.',
       image: 'assets/images/epr.png',
-      tags: ['React', 'Java Spring Boot', 'PostgreSQL'],
+      tags: ['React', 'Java Spring Boot', 'PostgreSQL', 'Chapa', 'Telebirr', 'Payment APIs'],
       github: '#',
       demo: 'https://www.etpayrent.com/',
       year: '2025'
@@ -53,7 +54,7 @@ const Projects = () => {
       description:
         'Modular payment processing engine for Chapa featuring automated webhook handling, transaction reconciliation, and idempotent payment verification.',
       image: 'assets/images/chapa.png',
-      tags: ['Laravel', 'MySQL', 'Chapa API', 'REST API'],
+      tags: ['Laravel', 'MySQL', 'Chapa API', 'REST API', 'Webhooks'],
       github: 'https://github.com/yonathan001/Chapa_Payment_Laravel',
       demo: '#',
       year: '2024'
